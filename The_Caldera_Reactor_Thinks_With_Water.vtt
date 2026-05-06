@@ -1,0 +1,6823 @@
+WEBVTT
+
+00:00.400 --> 00:04.820
+Picture the most advanced computer on Earth right now.
+
+00:04.980 --> 00:07.420
+You're probably imagining like a sterile clean room.
+
+00:07.500 --> 00:08.260
+Oh yeah, definitely.
+
+00:08.440 --> 00:10.100
+Yeah, like dust-free environments,
+
+00:10.720 --> 00:13.780
+perfectly etched silicon wafers,
+
+00:14.420 --> 00:18.020
+absolute, you know, zero-in-one binary precision.
+
+00:18.240 --> 00:19.920
+Totally isolated from the real world.
+
+00:20.100 --> 00:22.460
+Exactly. It's dry, it's quiet,
+
+00:23.240 --> 00:26.740
+and it is completely fundamentally separated
+
+00:26.740 --> 00:30.220
+from the messy reality of the physical world
+
+00:30.220 --> 00:31.840
+it's supposedly trying to control.
+
+00:33.180 --> 00:35.780
+Well, now I want you to throw all of that out
+
+00:35.780 --> 00:40.140
+because today we are unpacking a machine
+
+00:40.140 --> 00:44.300
+that doesn't just process wet, rotting ocean sludge.
+
+00:44.460 --> 00:46.820
+It actually uses the physical properties
+
+00:46.820 --> 00:48.580
+of the sludge itself to think.
+
+00:48.880 --> 00:51.320
+Which is, I mean, it's just a total paradigm shift.
+
+00:51.780 --> 00:53.740
+It really changes how we define a machine entirely.
+
+00:54.380 --> 00:54.620
+Right.
+
+00:54.620 --> 00:57.340
+Yeah, because the historical trajectory of engineering has,
+
+00:57.740 --> 00:59.220
+well, it's always been about
+
+00:59.220 --> 01:00.860
+abstracting the brain away from the box.
+
+01:00.880 --> 01:03.540
+Right, putting the microprocessor in a safe little box.
+
+01:03.580 --> 01:05.740
+Exactly, a pristine, delicate box.
+
+01:06.000 --> 01:09.780
+And then we program it to send electronic signals
+
+01:09.780 --> 01:11.820
+to these sort of dumb mechanical limbs
+
+01:11.820 --> 01:13.000
+out in the elements.
+
+01:13.100 --> 01:13.280
+Yeah.
+
+01:13.500 --> 01:16.660
+But the document we are exploring today,
+
+01:17.240 --> 01:19.100
+it flips that entirely.
+
+01:19.480 --> 01:21.060
+The physical process,
+
+01:21.060 --> 01:24.160
+the brutal grinding and boiling
+
+01:24.160 --> 01:28.340
+of the raw material that is the computer.
+
+01:28.480 --> 01:29.060
+It's wild.
+
+01:29.180 --> 01:30.760
+So welcome to today's Deep Dive.
+
+01:31.000 --> 01:32.720
+Whether you're listening to this while,
+
+01:32.940 --> 01:36.120
+you know, prepping for a major tech strategy meeting
+
+01:36.120 --> 01:39.060
+or trying to keep up with the bleeding edge
+
+01:39.060 --> 01:40.300
+of mechanical engineering,
+
+01:40.300 --> 01:42.140
+or you're just insanely curious
+
+01:42.140 --> 01:44.420
+about the weird future of energy,
+
+01:45.160 --> 01:47.000
+you are in the right place.
+
+01:47.120 --> 01:47.700
+You really are.
+
+01:47.700 --> 01:50.280
+Our foundational document today is,
+
+01:50.500 --> 01:52.840
+well, it's an independent, groundbreaking,
+
+01:53.240 --> 01:55.780
+and frankly, incredibly dense research paper.
+
+01:55.980 --> 01:59.580
+And it was published literally today, May 5th, 2026.
+
+01:59.800 --> 02:00.520
+Hot off the presses.
+
+02:00.800 --> 02:01.560
+Yeah, exactly.
+
+02:01.900 --> 02:03.440
+It's by a researcher named Flyxion,
+
+02:03.700 --> 02:05.560
+and it's titled The Caldera Reactor,
+
+02:06.060 --> 02:07.340
+Thermopneumatic Compression,
+
+02:07.860 --> 02:08.980
+Fluidic Computation,
+
+02:09.200 --> 02:11.320
+and Adaptive Biomass Processing.
+
+02:11.340 --> 02:12.040
+And I have to say,
+
+02:12.240 --> 02:14.160
+it is just a staggering piece of work.
+
+02:14.160 --> 02:16.820
+I mean, it completely redefines the boundaries
+
+02:16.820 --> 02:18.740
+between mechanical engineering,
+
+02:18.960 --> 02:20.760
+fluid dynamics, theoretical physics,
+
+02:21.320 --> 02:23.320
+and even industrial biology.
+
+02:23.480 --> 02:24.000
+It really does.
+
+02:24.340 --> 02:27.240
+So our mission today is to unpack this caldera reactor.
+
+02:27.940 --> 02:30.220
+This is a system designed to take wet,
+
+02:30.460 --> 02:34.000
+sludgy, totally uncooperative biomass.
+
+02:34.560 --> 02:37.800
+So we're talking freshly harvested ocean kelp,
+
+02:38.400 --> 02:42.540
+dense peat bogs, thick marine sediment.
+
+02:42.540 --> 02:43.420
+The nasty stuff.
+
+02:43.700 --> 02:44.620
+The really nasty stuff.
+
+02:44.680 --> 02:46.300
+And it turns it into high-value,
+
+02:46.520 --> 02:48.400
+biocrude, and biochemicals.
+
+02:48.420 --> 02:48.640
+Right.
+
+02:48.920 --> 02:51.940
+But the absolute kicker is that it achieves this
+
+02:51.940 --> 02:55.160
+without a centralized computer chip running the show.
+
+02:55.280 --> 02:56.220
+That's the crazy part.
+
+02:56.340 --> 02:58.200
+It forces water pressure
+
+02:58.200 --> 03:00.780
+and the physical geometry of its own pipes
+
+03:00.780 --> 03:03.960
+to basically calculate their own behavior in real time.
+
+03:04.100 --> 03:06.560
+Which just sounds like magic until you read the math.
+
+03:06.600 --> 03:06.900
+Yeah.
+
+03:07.220 --> 03:08.640
+Okay, so let's unpack this.
+
+03:08.640 --> 03:12.620
+Before we get into the whole mind-bending fluid computation thing,
+
+03:12.740 --> 03:14.200
+we have to start with the dirt.
+
+03:14.420 --> 03:15.600
+Yeah, we have to start with the sludge.
+
+03:15.680 --> 03:15.920
+Right.
+
+03:16.120 --> 03:18.700
+Like, why is processing wet sludge
+
+03:18.700 --> 03:21.640
+such a massive engineering nightmare in the first place?
+
+03:22.020 --> 03:24.380
+Well, to really appreciate the sheer genius
+
+03:24.380 --> 03:26.520
+of what Flyxion has designed here,
+
+03:26.680 --> 03:30.520
+you have to understand just how stubborn wet biomass is.
+
+03:30.760 --> 03:31.020
+Okay.
+
+03:31.020 --> 03:33.420
+When industrial engineers look at, like,
+
+03:33.680 --> 03:35.640
+a massive harvest of kelp
+
+03:35.640 --> 03:39.000
+or a barge full of dredged marine sediment,
+
+03:39.320 --> 03:40.720
+they do not see easy energy.
+
+03:40.800 --> 03:40.940
+No.
+
+03:41.120 --> 03:41.360
+No.
+
+03:41.660 --> 03:44.860
+They see a material that is fundamentally hostile
+
+03:44.860 --> 03:46.000
+to traditional processing.
+
+03:46.080 --> 03:46.220
+Yeah.
+
+03:46.720 --> 03:49.600
+I mean, first off, it is wildly heterogeneous.
+
+03:49.880 --> 03:50.900
+Meaning what, exactly?
+
+03:51.140 --> 03:54.320
+Meaning one scoop of this sludge
+
+03:54.320 --> 03:57.600
+has a completely different chemical and physical makeup
+
+03:57.600 --> 03:59.520
+than the scoop right next to it.
+
+03:59.620 --> 04:00.440
+Oh, I see.
+
+04:00.440 --> 04:02.860
+You can't just set a dial to medium and hope for the best.
+
+04:03.080 --> 04:04.440
+You know, it's constantly changing.
+
+04:04.640 --> 04:07.460
+And then, obviously, the elephant in the room is the water.
+
+04:07.680 --> 04:08.020
+Yes.
+
+04:08.660 --> 04:11.760
+The water is absolutely the primary antagonist here.
+
+04:12.380 --> 04:14.620
+Because, well, water does not burn.
+
+04:14.760 --> 04:15.060
+Right.
+
+04:15.240 --> 04:15.860
+Not easily.
+
+04:16.100 --> 04:16.360
+Anyway.
+
+04:16.560 --> 04:16.960
+Exactly.
+
+04:17.140 --> 04:17.340
+Yeah.
+
+04:17.440 --> 04:20.000
+So if you want to turn organic sludge
+
+04:20.000 --> 04:23.220
+into a usable, biocrude,
+
+04:23.840 --> 04:26.160
+or extract valuable chemicals,
+
+04:26.720 --> 04:29.080
+conventional wisdom says you have to dry it out first.
+
+04:29.200 --> 04:30.340
+You've got to get the water out of the way.
+
+04:30.440 --> 04:30.700
+Right.
+
+04:30.960 --> 04:34.480
+But water has this notoriously high heat capacity.
+
+04:34.680 --> 04:36.660
+It holds on to temperature so tenaciously.
+
+04:36.860 --> 04:37.140
+Okay.
+
+04:37.460 --> 04:39.500
+And it's latent heat of vaporization,
+
+04:39.820 --> 04:40.660
+which is, you know,
+
+04:40.680 --> 04:42.080
+the amount of raw energy required
+
+04:42.080 --> 04:44.820
+to force it from a liquid state into steam.
+
+04:45.280 --> 04:46.040
+It's massive.
+
+04:46.040 --> 04:48.440
+So if you're using traditional methods,
+
+04:48.440 --> 04:50.380
+you're essentially forced into a corner
+
+04:50.380 --> 04:52.700
+where you have to build this giant oven
+
+04:52.700 --> 04:53.880
+just to bake the mud
+
+04:53.880 --> 04:56.280
+before you can even start extracting value.
+
+04:56.280 --> 04:58.840
+Which creates a completely energy negative loop.
+
+04:59.020 --> 05:01.200
+You end up burning an enormous amount of fuel
+
+05:01.200 --> 05:03.220
+simply to boil off the water.
+
+05:03.660 --> 05:03.680
+Right.
+
+05:03.820 --> 05:04.020
+Right.
+
+05:04.020 --> 05:06.300
+By the time you've dried the biomass enough
+
+05:06.300 --> 05:07.300
+to process it,
+
+05:07.980 --> 05:10.040
+you have spent more energy
+
+05:10.040 --> 05:11.720
+than you could ever hope to get back
+
+05:11.720 --> 05:13.320
+from the resulting biofuel.
+
+05:13.680 --> 05:16.280
+It's a financially and thermodynamically
+
+05:16.280 --> 05:18.340
+doomed enterprise from the start.
+
+05:18.600 --> 05:18.920
+Exactly.
+
+05:19.080 --> 05:20.900
+It's kind of like trying to start a campfire
+
+05:20.900 --> 05:22.080
+with soaking wet logs,
+
+05:22.320 --> 05:24.020
+but the only way to do it
+
+05:24.020 --> 05:25.540
+is by burning a massive pile
+
+05:25.540 --> 05:26.800
+of perfectly dry,
+
+05:26.940 --> 05:28.500
+really expensive firewood
+
+05:28.500 --> 05:31.720
+just to dry the wet logs out first.
+
+05:31.720 --> 05:33.180
+That is a perfect analogy.
+
+05:33.400 --> 05:35.220
+You are basically losing the game
+
+05:35.220 --> 05:37.060
+before the first spark even catches.
+
+05:37.520 --> 05:37.980
+Right.
+
+05:38.100 --> 05:39.660
+And that is the persistent,
+
+05:39.880 --> 05:41.480
+constrained engineers have been,
+
+05:41.600 --> 05:42.240
+you know,
+
+05:42.420 --> 05:44.760
+slamming their heads against for decades.
+
+05:45.000 --> 05:45.200
+Yeah.
+
+05:45.460 --> 05:47.260
+How do you process something
+
+05:47.260 --> 05:49.800
+that is 80 or 90% water
+
+05:49.800 --> 05:52.540
+without going bankrupt on the energy bill?
+
+05:52.800 --> 05:54.440
+And this is where the Caldera reactor
+
+05:54.440 --> 05:56.080
+completely changes the board.
+
+05:56.440 --> 05:57.160
+It really does.
+
+05:57.600 --> 05:59.160
+Because instead of fighting the water,
+
+05:59.540 --> 06:00.920
+the reactor recruits it.
+
+06:00.920 --> 06:02.080
+It recruits it.
+
+06:02.160 --> 06:02.960
+I love that.
+
+06:03.040 --> 06:03.180
+Yeah.
+
+06:03.260 --> 06:05.100
+It combines thermodynamic cycling,
+
+06:05.600 --> 06:06.960
+immense mechanical compression,
+
+06:07.280 --> 06:08.600
+and adaptive control
+
+06:08.600 --> 06:11.920
+into a single closed loop environment.
+
+06:12.180 --> 06:12.680
+Okay, wait.
+
+06:12.780 --> 06:14.940
+So it doesn't dry the biomass out
+
+06:14.940 --> 06:16.740
+in a separate wasteful step?
+
+06:16.840 --> 06:17.760
+No, not at all.
+
+06:17.960 --> 06:20.160
+It violently crushes the water out of it
+
+06:20.160 --> 06:24.700
+and then it uses that exact same pressurized water
+
+06:24.700 --> 06:26.740
+to drive chemical reactions
+
+06:26.740 --> 06:29.080
+and calculate its next physical move.
+
+06:29.080 --> 06:30.640
+Okay, so if you're listening to this
+
+06:30.640 --> 06:32.960
+and trying to picture the sheer scale of this thing,
+
+06:33.040 --> 06:34.420
+you need to banish the image
+
+06:34.420 --> 06:36.300
+of like a laboratory beaker
+
+06:36.300 --> 06:38.400
+or a neat little stainless steel vat.
+
+06:38.440 --> 06:39.040
+Oh, absolutely.
+
+06:39.580 --> 06:41.480
+We are talking about a device
+
+06:41.480 --> 06:43.600
+the size of a six-story building,
+
+06:43.780 --> 06:46.220
+a machine that essentially breathes.
+
+06:46.220 --> 06:46.560
+Yes.
+
+06:46.740 --> 06:49.640
+Because to understand how this machine thinks,
+
+06:49.820 --> 06:52.180
+we first have to understand how it moves.
+
+06:52.260 --> 06:53.940
+And it moves with a very specific,
+
+06:54.520 --> 06:55.500
+very heavy rhythm.
+
+06:55.500 --> 06:55.980
+Right.
+
+06:56.200 --> 06:59.300
+The paper details this massive physical architecture,
+
+06:59.920 --> 07:02.720
+which operates in a continuous four-phase cycle.
+
+07:03.260 --> 07:06.800
+Lift, clamp and draw, press, and recovery.
+
+07:06.960 --> 07:08.740
+It's a brutal mechanical cycle.
+
+07:09.020 --> 07:10.340
+Let's start from a dead stop
+
+07:10.340 --> 07:12.740
+and go right into phase one, the lift.
+
+07:13.640 --> 07:15.400
+What is actually happening here?
+
+07:15.820 --> 07:18.420
+Well, the lift phase is where the raw power
+
+07:18.420 --> 07:20.480
+of the system is first unleashed.
+
+07:20.480 --> 07:24.340
+The core moving part of the reactor
+
+07:24.340 --> 07:27.280
+is an absolute massive compression plate.
+
+07:27.860 --> 07:29.040
+How massive are we talking?
+
+07:29.220 --> 07:31.480
+We are talking about thousands of tons
+
+07:31.480 --> 07:33.760
+of vertically actuated steel.
+
+07:34.040 --> 07:34.480
+Wow.
+
+07:34.780 --> 07:35.720
+And to move this,
+
+07:36.240 --> 07:38.800
+the system injects superheated steam
+
+07:38.800 --> 07:41.680
+directly into the subchamber beneath the plate.
+
+07:41.820 --> 07:42.020
+Right.
+
+07:42.180 --> 07:43.780
+And Flyxion actually includes
+
+07:43.780 --> 07:45.280
+the mathematical modeling
+
+07:45.280 --> 07:47.220
+for this upward force in the paper.
+
+07:47.440 --> 07:47.720
+Yes.
+
+07:47.720 --> 07:49.740
+And what's fascinating is that it's not
+
+07:49.740 --> 07:52.560
+just a simple calculation of steam pushing up.
+
+07:52.640 --> 07:53.980
+It's more complicated than that.
+
+07:54.080 --> 07:54.720
+Much more.
+
+07:55.380 --> 07:57.420
+The raw pushing power is dictated
+
+07:57.420 --> 08:00.100
+by the surface area of that giant plate, right?
+
+08:00.540 --> 08:02.180
+Multiplied by the pressure differential.
+
+08:02.420 --> 08:02.720
+Okay.
+
+08:03.140 --> 08:04.620
+So you have the superheated steam
+
+08:04.620 --> 08:05.980
+roaring up from below,
+
+08:06.460 --> 08:07.520
+fighting against the pressure
+
+08:07.520 --> 08:08.700
+sitting on top of the plate.
+
+08:08.860 --> 08:10.600
+And that includes the immense weight
+
+08:10.600 --> 08:12.480
+of the fresh, wet sludge
+
+08:12.480 --> 08:14.700
+that's just been loaded into the main chamber, right?
+
+08:14.700 --> 08:15.540
+Exactly.
+
+08:16.260 --> 08:17.860
+And that upward push
+
+08:17.860 --> 08:19.340
+is constantly fighting
+
+08:19.340 --> 08:20.940
+against a massive collection
+
+08:20.940 --> 08:22.420
+of resistive forces, too.
+
+08:22.620 --> 08:23.280
+Like friction.
+
+08:23.700 --> 08:23.920
+Yeah.
+
+08:24.240 --> 08:25.800
+Moving a plate of this magnitude
+
+08:25.800 --> 08:27.340
+through a viscous environment
+
+08:27.340 --> 08:29.680
+involves severe friction
+
+08:29.680 --> 08:31.800
+against the heavy chamber walls.
+
+08:32.160 --> 08:32.920
+Plus, you know,
+
+08:33.000 --> 08:34.880
+the raw inertia of the plate itself.
+
+08:34.920 --> 08:36.500
+Just getting it to move at all.
+
+08:36.660 --> 08:36.940
+Right.
+
+08:37.200 --> 08:39.760
+And then you have complex hydrostatic loads.
+
+08:40.020 --> 08:42.060
+What does that mean in this context?
+
+08:42.060 --> 08:44.340
+Basically, the sheer fluid dynamics
+
+08:44.340 --> 08:45.620
+of all that wet material
+
+08:45.620 --> 08:47.600
+sloshing around and resisting movement.
+
+08:47.720 --> 08:47.820
+Right.
+
+08:47.900 --> 08:48.860
+Because the steam pressure
+
+08:48.860 --> 08:50.540
+isn't just a static number, either.
+
+08:50.920 --> 08:52.520
+As the steam pumps in,
+
+08:52.680 --> 08:54.600
+the chamber is physically expanding
+
+08:54.600 --> 08:55.920
+because the plate is rising.
+
+08:56.000 --> 08:56.360
+Yes.
+
+08:56.500 --> 08:57.620
+So the pressure evolution
+
+08:57.620 --> 09:00.020
+is this beautifully controlled dance.
+
+09:00.120 --> 09:01.640
+Between the mass of the steam
+
+09:01.640 --> 09:02.380
+being injected
+
+09:02.380 --> 09:04.440
+and the thermodynamic expansion
+
+09:04.440 --> 09:05.280
+of the space.
+
+09:05.420 --> 09:06.020
+Exactly.
+
+09:06.260 --> 09:07.300
+You are steadily,
+
+09:08.000 --> 09:09.560
+powerfully building up
+
+09:09.560 --> 09:10.840
+an immense reservoir
+
+09:10.840 --> 09:12.620
+of potential energy,
+
+09:13.140 --> 09:14.560
+basically pushing thousands
+
+09:14.560 --> 09:15.900
+of tons of wet earth
+
+09:15.900 --> 09:17.080
+high into the air.
+
+09:17.180 --> 09:17.420
+Okay.
+
+09:17.600 --> 09:18.640
+So, which brings us
+
+09:18.640 --> 09:19.500
+to the precipice.
+
+09:19.840 --> 09:21.540
+You have this towering mass
+
+09:21.540 --> 09:23.280
+of steel and wet biomass
+
+09:23.280 --> 09:25.140
+suspended on a cushion
+
+09:25.140 --> 09:26.580
+of superheated steam.
+
+09:26.860 --> 09:28.260
+So we've lifted thousands
+
+09:28.260 --> 09:29.060
+of tons
+
+09:29.060 --> 09:30.800
+using sheer steam pressure.
+
+09:31.100 --> 09:32.020
+But obviously,
+
+09:32.520 --> 09:33.180
+what goes up
+
+09:33.180 --> 09:34.040
+has to come down.
+
+09:34.280 --> 09:35.180
+It definitely does.
+
+09:35.540 --> 09:36.960
+Flyxion doesn't just let it
+
+09:36.960 --> 09:38.320
+like drift down gently.
+
+09:38.780 --> 09:40.120
+This transitions us
+
+09:40.120 --> 09:41.080
+into phase two,
+
+09:41.500 --> 09:42.120
+clamp and draw.
+
+09:42.400 --> 09:43.360
+The physical violence
+
+09:43.360 --> 09:44.080
+of this phase
+
+09:44.080 --> 09:45.780
+is almost hard to overstate.
+
+09:46.480 --> 09:47.420
+The lift peaks,
+
+09:47.920 --> 09:49.580
+the steam injection stops,
+
+09:50.240 --> 09:51.660
+and the system initiates
+
+09:51.660 --> 09:53.200
+a rapid cooling process.
+
+09:53.420 --> 09:53.580
+Yeah.
+
+09:53.660 --> 09:54.960
+And it relies on the physics
+
+09:54.960 --> 09:56.340
+of sudden condensation.
+
+09:56.600 --> 09:56.920
+Okay.
+
+09:57.060 --> 09:57.620
+Explain that.
+
+09:57.620 --> 09:59.400
+So the superheated steam
+
+09:59.400 --> 10:01.540
+holding that massive plate up
+
+10:01.540 --> 10:03.400
+is abruptly subjected
+
+10:03.400 --> 10:04.440
+to cooling channels.
+
+10:04.600 --> 10:04.900
+Okay.
+
+10:05.180 --> 10:06.740
+When steam condenses
+
+10:06.740 --> 10:08.000
+back into liquid water,
+
+10:08.440 --> 10:09.600
+its volume collapses
+
+10:09.600 --> 10:10.880
+instantaneously.
+
+10:11.180 --> 10:12.220
+It shrinks down
+
+10:12.220 --> 10:13.340
+to a tiny fraction
+
+10:13.340 --> 10:14.440
+of its gaseous state.
+
+10:14.600 --> 10:15.300
+So it creates
+
+10:15.300 --> 10:16.600
+a catastrophic drop
+
+10:16.600 --> 10:17.180
+in pressure
+
+10:17.180 --> 10:18.580
+within that subchamber?
+
+10:18.760 --> 10:19.040
+Yes.
+
+10:19.640 --> 10:20.620
+It creates a massive
+
+10:20.620 --> 10:22.080
+instantaneous vacuum.
+
+10:22.180 --> 10:23.620
+Vacuum of immense power.
+
+10:23.820 --> 10:24.280
+Exactly.
+
+10:24.600 --> 10:25.440
+And that vacuum
+
+10:25.440 --> 10:27.140
+performs two critical functions
+
+10:27.140 --> 10:27.820
+simultaneously.
+
+10:28.280 --> 10:28.600
+First,
+
+10:28.820 --> 10:29.900
+it completely eliminates
+
+10:29.900 --> 10:30.400
+the cushion
+
+10:30.400 --> 10:31.300
+holding the plate up.
+
+10:31.400 --> 10:32.060
+Oh, right.
+
+10:32.100 --> 10:33.160
+And then the negative pressure
+
+10:33.160 --> 10:34.160
+violently yanks
+
+10:34.160 --> 10:35.220
+the thousands of tons
+
+10:35.220 --> 10:36.160
+of steel downward.
+
+10:36.580 --> 10:37.920
+It literally sucks
+
+10:37.920 --> 10:39.140
+the plate down
+
+10:39.140 --> 10:40.160
+onto the biomass
+
+10:40.160 --> 10:42.480
+with incredible ferocity.
+
+10:42.480 --> 10:42.920
+Yes.
+
+10:43.200 --> 10:44.380
+It's not just falling
+
+10:44.380 --> 10:45.060
+under gravity,
+
+10:45.220 --> 10:46.360
+it's being pulled down
+
+10:46.360 --> 10:47.680
+by the void underneath it.
+
+10:47.840 --> 10:49.040
+That is terrifying
+
+10:49.040 --> 10:49.740
+and amazing.
+
+10:49.940 --> 10:50.860
+And the second function
+
+10:50.860 --> 10:52.020
+is equally crucial.
+
+10:52.420 --> 10:54.060
+That same vacuum pressure
+
+10:54.060 --> 10:55.580
+is routed to suck in
+
+10:55.580 --> 10:57.880
+a massive fresh influx
+
+10:57.880 --> 10:58.580
+of seawater
+
+10:58.580 --> 11:00.200
+through the lower inlet channels.
+
+11:00.360 --> 11:01.000
+Wait, really?
+
+11:01.000 --> 11:02.100
+Why seawater?
+
+11:02.640 --> 11:03.960
+This surging seawater
+
+11:03.960 --> 11:05.880
+simultaneously seals
+
+11:05.880 --> 11:07.040
+the compression chamber
+
+11:07.040 --> 11:08.220
+against outside air
+
+11:08.220 --> 11:09.680
+and redistributes
+
+11:09.680 --> 11:11.000
+the internal fluid mass.
+
+11:11.120 --> 11:12.260
+So it's priming
+
+11:12.260 --> 11:13.540
+the internal environment
+
+11:13.540 --> 11:14.980
+for the main event.
+
+11:15.100 --> 11:15.480
+Exactly.
+
+11:15.820 --> 11:16.740
+Perfectly priming it.
+
+11:16.740 --> 11:17.940
+Which is phase three,
+
+11:18.340 --> 11:18.860
+the press.
+
+11:19.280 --> 11:20.340
+The actual compression.
+
+11:20.760 --> 11:21.220
+The crush.
+
+11:21.500 --> 11:21.720
+Right.
+
+11:22.260 --> 11:23.320
+The plate slams
+
+11:23.320 --> 11:24.320
+into the wet kelp
+
+11:24.320 --> 11:24.920
+and sediment.
+
+11:25.580 --> 11:26.100
+Now,
+
+11:26.240 --> 11:27.300
+the paper doesn't just
+
+11:27.300 --> 11:28.140
+call this crushing,
+
+11:28.460 --> 11:28.680
+right?
+
+11:28.680 --> 11:30.520
+It describes the sludge
+
+11:30.520 --> 11:31.360
+being subjected
+
+11:31.360 --> 11:33.440
+to viscoelastic deformation.
+
+11:34.160 --> 11:34.240
+Yes.
+
+11:34.600 --> 11:35.760
+And I want to break this down
+
+11:35.760 --> 11:36.580
+because it's so much
+
+11:36.580 --> 11:37.580
+more complex than,
+
+11:37.700 --> 11:38.020
+like,
+
+11:38.200 --> 11:39.240
+a hydraulic press
+
+11:39.240 --> 11:40.140
+flattening a car.
+
+11:40.400 --> 11:42.080
+We are dealing with
+
+11:42.080 --> 11:42.580
+living,
+
+11:42.760 --> 11:43.960
+or formerly living,
+
+11:44.320 --> 11:45.300
+cellular structures.
+
+11:45.460 --> 11:45.800
+Right.
+
+11:45.920 --> 11:47.220
+The term viscoelastic
+
+11:47.220 --> 11:48.420
+perfectly captures
+
+11:48.420 --> 11:49.160
+the dual,
+
+11:49.640 --> 11:50.520
+highly frustrating
+
+11:50.520 --> 11:51.740
+nature of this sludge.
+
+11:52.120 --> 11:52.420
+Okay.
+
+11:52.660 --> 11:53.380
+Walk us through
+
+11:53.380 --> 11:54.180
+the two halves
+
+11:54.180 --> 11:54.800
+of that word.
+
+11:55.060 --> 11:55.800
+Think about it.
+
+11:55.800 --> 11:57.040
+visco,
+
+11:57.360 --> 11:58.200
+as in a thick,
+
+11:58.340 --> 11:59.200
+resistant liquid
+
+11:59.200 --> 12:00.600
+like honey or tar.
+
+12:01.160 --> 12:01.540
+Okay.
+
+12:01.760 --> 12:02.400
+And elastic,
+
+12:02.840 --> 12:03.680
+like a rubber band
+
+12:03.680 --> 12:04.820
+or a dense sponge.
+
+12:05.040 --> 12:05.620
+So when that
+
+12:05.620 --> 12:06.900
+multi-ton plate
+
+12:06.900 --> 12:08.580
+driven by gravity
+
+12:08.580 --> 12:10.000
+and the massive vacuum
+
+12:10.000 --> 12:11.480
+hits the biomass?
+
+12:11.980 --> 12:12.740
+The material
+
+12:12.740 --> 12:13.800
+doesn't just shatter.
+
+12:13.960 --> 12:14.760
+It doesn't instantly
+
+12:14.760 --> 12:15.760
+flatten like a bunch
+
+12:15.760 --> 12:17.240
+of dry saltine crackers.
+
+12:17.480 --> 12:18.580
+It fights back.
+
+12:18.780 --> 12:19.560
+Ah, okay.
+
+12:20.120 --> 12:21.180
+The paper models
+
+12:21.180 --> 12:21.900
+this resistance
+
+12:21.900 --> 12:22.680
+as a combination
+
+12:22.680 --> 12:24.400
+of elastic springiness
+
+12:24.400 --> 12:25.840
+and viscous drag.
+
+12:26.020 --> 12:26.340
+Exactly.
+
+12:26.680 --> 12:27.400
+The elastic part
+
+12:27.400 --> 12:28.700
+is the physical structure
+
+12:28.700 --> 12:29.900
+of the kelp itself,
+
+12:30.040 --> 12:30.240
+right?
+
+12:30.340 --> 12:30.580
+Like,
+
+12:30.740 --> 12:31.680
+the fibrous material
+
+12:31.680 --> 12:32.880
+wants to bounce back.
+
+12:33.060 --> 12:33.360
+Right.
+
+12:33.740 --> 12:35.160
+But as the sheer force
+
+12:35.160 --> 12:36.680
+overcomes that springiness,
+
+12:37.240 --> 12:38.280
+the viscous reality
+
+12:38.280 --> 12:38.780
+kicks in.
+
+12:38.860 --> 12:39.460
+You are forcibly
+
+12:39.460 --> 12:40.320
+squeezing water
+
+12:40.320 --> 12:41.580
+out of a microscopic
+
+12:41.580 --> 12:43.380
+porous labyrinth.
+
+12:43.380 --> 12:44.500
+So you are dealing
+
+12:44.500 --> 12:45.240
+with a material
+
+12:45.240 --> 12:46.220
+that is continuously
+
+12:46.220 --> 12:47.800
+changing its fundamental
+
+12:47.800 --> 12:48.920
+physical properties
+
+12:48.920 --> 12:50.180
+the harder you crush it.
+
+12:50.380 --> 12:50.600
+Yes.
+
+12:50.960 --> 12:52.840
+It begins as a highly hydrated,
+
+12:53.120 --> 12:54.540
+wet, springy sponge.
+
+12:54.660 --> 12:55.920
+But as the plate descends,
+
+12:56.320 --> 12:57.660
+forcing the trapped liquid
+
+12:57.660 --> 12:58.280
+out through
+
+12:58.280 --> 12:59.560
+the microscopic pores.
+
+13:00.060 --> 13:01.120
+The sludge transitions.
+
+13:01.600 --> 13:02.760
+It becomes denser,
+
+13:03.040 --> 13:03.700
+tightly packed,
+
+13:03.880 --> 13:05.100
+and its resistance
+
+13:05.100 --> 13:05.960
+to the plate
+
+13:05.960 --> 13:07.440
+actually increases
+
+13:07.440 --> 13:08.940
+the further down it goes.
+
+13:09.120 --> 13:10.520
+And what's being squeezed out
+
+13:10.520 --> 13:11.980
+isn't just dirty ocean water,
+
+13:11.980 --> 13:12.320
+right?
+
+13:12.540 --> 13:13.340
+No, not at all.
+
+13:14.080 --> 13:15.760
+The sheer mechanical pressure
+
+13:15.760 --> 13:17.440
+and the massive heat
+
+13:17.440 --> 13:18.880
+generated by this friction
+
+13:18.880 --> 13:20.340
+are fundamentally
+
+13:20.340 --> 13:21.980
+altering the material.
+
+13:22.380 --> 13:23.780
+It's actually tearing open
+
+13:23.780 --> 13:25.040
+the cellular structures
+
+13:25.040 --> 13:25.800
+of the biomass.
+
+13:26.340 --> 13:27.200
+And extracting
+
+13:27.200 --> 13:28.900
+the dissolved biochemicals.
+
+13:28.980 --> 13:29.120
+Right.
+
+13:29.460 --> 13:30.740
+The biocrude fractions,
+
+13:31.180 --> 13:32.280
+the valuable lipids
+
+13:32.280 --> 13:32.800
+and sugars,
+
+13:33.040 --> 13:34.720
+they are liberated
+
+13:34.720 --> 13:35.920
+and carried away
+
+13:35.920 --> 13:37.460
+by the fluid
+
+13:37.460 --> 13:38.300
+being forced out
+
+13:38.300 --> 13:39.420
+into the recovery channels.
+
+13:39.620 --> 13:40.740
+That is so cool.
+
+13:41.020 --> 13:41.720
+The water,
+
+13:42.120 --> 13:43.640
+which was the primary enemy
+
+13:43.640 --> 13:44.760
+in a traditional
+
+13:44.760 --> 13:45.560
+drying furnace,
+
+13:45.560 --> 13:47.880
+is now the transport mechanism
+
+13:47.880 --> 13:49.180
+carrying the valuable
+
+13:49.180 --> 13:50.340
+biological payload
+
+13:50.340 --> 13:51.640
+out of the crushing zone.
+
+13:51.840 --> 13:52.500
+It's completely
+
+13:52.500 --> 13:53.180
+flipped the script.
+
+13:53.300 --> 13:54.180
+Okay, so we've lifted,
+
+13:54.340 --> 13:54.880
+we've clamped,
+
+13:54.920 --> 13:55.860
+we've violently pressed.
+
+13:56.080 --> 13:57.060
+That leads into
+
+13:57.060 --> 13:58.580
+the final mechanical phase,
+
+13:58.800 --> 13:59.200
+recovery.
+
+13:59.640 --> 13:59.920
+Right.
+
+14:00.020 --> 14:01.500
+The plate is incredibly heavy,
+
+14:01.660 --> 14:02.320
+it is ascending
+
+14:02.320 --> 14:03.760
+with massive force,
+
+14:04.280 --> 14:05.480
+and Flyxion just refuses
+
+14:05.480 --> 14:07.120
+to let that kinetic energy
+
+14:07.120 --> 14:08.420
+bleed out into the ground
+
+14:08.420 --> 14:09.540
+as wasted vibration.
+
+14:09.920 --> 14:11.520
+Because efficiency requires
+
+14:11.520 --> 14:13.220
+capturing every possible
+
+14:13.220 --> 14:14.220
+joule of energy.
+
+14:14.220 --> 14:15.740
+So what happens
+
+14:15.740 --> 14:16.680
+to the fluid
+
+14:16.680 --> 14:17.760
+being pushed out?
+
+14:18.140 --> 14:19.040
+Well, as the plate
+
+14:19.040 --> 14:19.680
+descends
+
+14:19.680 --> 14:21.500
+and forces the fluid out,
+
+14:21.940 --> 14:23.460
+that highly pressurized liquid
+
+14:23.460 --> 14:24.480
+isn't just dumped
+
+14:24.480 --> 14:25.960
+into a holding tank somewhere.
+
+14:26.120 --> 14:26.840
+Where does it go?
+
+14:26.980 --> 14:28.360
+It is routed directly
+
+14:28.360 --> 14:30.280
+through heavy outflow channels
+
+14:30.280 --> 14:32.400
+that are mechanically coupled
+
+14:32.400 --> 14:34.680
+to energy recovery turbines.
+
+14:35.120 --> 14:35.400
+Oh.
+
+14:35.780 --> 14:36.860
+So the kinetic energy
+
+14:36.860 --> 14:37.840
+of the descending plate
+
+14:37.840 --> 14:39.040
+is transferred right
+
+14:39.040 --> 14:39.740
+into the fluid,
+
+14:40.040 --> 14:40.940
+which then spins
+
+14:40.940 --> 14:41.660
+the turbines,
+
+14:42.100 --> 14:42.820
+generating power.
+
+14:42.820 --> 14:44.400
+And the paper models
+
+14:44.400 --> 14:45.900
+this recovered energy, right?
+
+14:46.040 --> 14:46.680
+By calculating
+
+14:46.680 --> 14:47.840
+the continuous force
+
+14:47.840 --> 14:49.080
+of the plate's descent,
+
+14:49.500 --> 14:50.740
+factoring the density
+
+14:50.740 --> 14:52.000
+of the pressurized fluid,
+
+14:52.480 --> 14:53.500
+the pull of gravity.
+
+14:53.860 --> 14:54.260
+And of course,
+
+14:54.340 --> 14:55.920
+the inherent parasitic
+
+14:55.920 --> 14:56.840
+friction losses
+
+14:56.840 --> 14:58.640
+inside the turbine itself.
+
+14:58.760 --> 14:59.040
+Right.
+
+14:59.120 --> 15:01.440
+So you pay a heavy energy cost
+
+15:01.440 --> 15:02.380
+to lift the plate
+
+15:02.380 --> 15:03.340
+in phase one,
+
+15:03.480 --> 15:04.820
+but you claw
+
+15:04.820 --> 15:06.420
+a massive percentage
+
+15:06.420 --> 15:07.200
+of that energy
+
+15:07.200 --> 15:08.480
+back on the way down.
+
+15:08.600 --> 15:09.080
+Exactly.
+
+15:09.280 --> 15:10.700
+It dramatically lowers
+
+15:10.700 --> 15:12.500
+the net thermodynamic cost
+
+15:12.500 --> 15:14.580
+of the entire operational loop.
+
+15:14.860 --> 15:15.300
+Okay, wait.
+
+15:15.380 --> 15:16.620
+This is where I need to stop
+
+15:16.620 --> 15:17.540
+and push back a little bit.
+
+15:17.560 --> 15:18.060
+Okay, go ahead.
+
+15:18.440 --> 15:19.840
+Because visualizing this,
+
+15:20.180 --> 15:22.000
+we have superheated steam,
+
+15:22.600 --> 15:24.400
+catastrophic vacuum collapses,
+
+15:25.200 --> 15:26.700
+thousands of tons of steel,
+
+15:26.920 --> 15:27.800
+violently crushing
+
+15:27.800 --> 15:29.240
+viscoelastic sludge,
+
+15:29.720 --> 15:31.600
+and highly pressurized
+
+15:31.600 --> 15:33.240
+fluid spinning turbines.
+
+15:33.240 --> 15:34.420
+A lot going on.
+
+15:34.740 --> 15:35.000
+Yeah.
+
+15:35.260 --> 15:36.560
+And if there is no
+
+15:36.560 --> 15:38.240
+pristine control room,
+
+15:38.440 --> 15:38.640
+right,
+
+15:38.760 --> 15:40.420
+no digital microprocessor,
+
+15:40.660 --> 15:41.640
+no silicon brain
+
+15:41.640 --> 15:43.040
+executing a while loop
+
+15:43.040 --> 15:44.340
+to open and close valves
+
+15:44.340 --> 15:45.620
+with millisecond precision,
+
+15:45.840 --> 15:46.040
+Right.
+
+15:46.460 --> 15:47.660
+how does this entire
+
+15:47.660 --> 15:48.860
+six-story building
+
+15:48.860 --> 15:50.740
+not just rip itself apart?
+
+15:50.980 --> 15:51.240
+Like,
+
+15:51.300 --> 15:52.700
+who is telling the steam
+
+15:52.700 --> 15:53.340
+to stop?
+
+15:53.700 --> 15:54.900
+Who routes the fluid
+
+15:54.900 --> 15:55.680
+to the turbines
+
+15:55.680 --> 15:57.180
+instead of the inlet valves?
+
+15:57.360 --> 15:57.660
+Right.
+
+15:57.740 --> 15:58.740
+And that is the exact
+
+15:58.740 --> 15:59.180
+threshold
+
+15:59.180 --> 16:00.820
+where the Caldera reactor
+
+16:00.820 --> 16:03.040
+shifts from a brilliant piece
+
+16:03.040 --> 16:04.760
+of heavy mechanical engineering
+
+16:04.760 --> 16:06.660
+into a completely
+
+16:06.660 --> 16:07.580
+revolutionary
+
+16:07.580 --> 16:09.100
+computational paradigm.
+
+16:09.280 --> 16:09.560
+Okay.
+
+16:09.800 --> 16:10.540
+Because your instinct
+
+16:10.540 --> 16:11.560
+is completely correct.
+
+16:12.000 --> 16:13.140
+A process that's violent
+
+16:13.140 --> 16:13.700
+and complex
+
+16:13.700 --> 16:14.900
+requires constant
+
+16:14.900 --> 16:16.180
+instantaneous management.
+
+16:16.320 --> 16:16.920
+It has to,
+
+16:17.020 --> 16:17.860
+or it explodes.
+
+16:18.140 --> 16:18.620
+Exactly.
+
+16:19.060 --> 16:19.720
+But Flyxion
+
+16:19.720 --> 16:20.880
+entirely discards
+
+16:20.880 --> 16:21.400
+the motherboard.
+
+16:21.680 --> 16:22.900
+It's just wild to me.
+
+16:23.040 --> 16:23.640
+The intelligence
+
+16:23.640 --> 16:24.220
+of the system
+
+16:24.220 --> 16:25.300
+is physically embedded
+
+16:25.300 --> 16:26.840
+directly into the architecture
+
+16:26.840 --> 16:27.880
+of the pipes themselves.
+
+16:28.200 --> 16:28.460
+Right.
+
+16:28.640 --> 16:29.700
+The paper calls
+
+16:29.700 --> 16:31.040
+this decentralized system,
+
+16:31.160 --> 16:32.040
+the knot lattice,
+
+16:32.400 --> 16:33.360
+which introduces
+
+16:33.360 --> 16:34.560
+the whole concept
+
+16:34.560 --> 16:35.960
+of fluidic computation.
+
+16:36.720 --> 16:38.000
+It's a network
+
+16:38.000 --> 16:38.780
+that computes
+
+16:38.780 --> 16:39.880
+simply by flowing.
+
+16:40.640 --> 16:41.920
+But how does
+
+16:41.920 --> 16:43.260
+a literal steel pipe
+
+16:43.260 --> 16:45.060
+make a microsecond decision?
+
+16:45.500 --> 16:46.520
+It achieves this
+
+16:46.520 --> 16:47.800
+through discrete
+
+16:47.800 --> 16:49.340
+pressure-sensitive routing.
+
+16:49.660 --> 16:49.920
+Okay.
+
+16:50.180 --> 16:50.900
+Walk us through that.
+
+16:50.900 --> 16:51.920
+So the entire
+
+16:51.920 --> 16:52.800
+fluid network
+
+16:52.800 --> 16:53.500
+wrapping around
+
+16:53.500 --> 16:54.620
+the Caldera reactor
+
+16:54.620 --> 16:55.740
+is constructed
+
+16:55.740 --> 16:56.820
+of these specialized
+
+16:56.820 --> 16:58.100
+intersection points.
+
+16:58.100 --> 17:00.180
+Flyxion designates
+
+17:00.180 --> 17:00.900
+these nodes
+
+17:00.900 --> 17:01.960
+as knots.
+
+17:02.200 --> 17:02.760
+Knots.
+
+17:02.900 --> 17:03.240
+Got it.
+
+17:03.440 --> 17:04.060
+You can visualize
+
+17:04.060 --> 17:05.120
+them as specialized
+
+17:05.120 --> 17:07.000
+multidirectional valves,
+
+17:07.240 --> 17:08.220
+but they aren't
+
+17:08.220 --> 17:09.160
+motorized valves
+
+17:09.160 --> 17:09.940
+waiting for an
+
+17:09.940 --> 17:10.780
+electronic signal.
+
+17:10.900 --> 17:11.680
+They aren't wired
+
+17:11.680 --> 17:12.300
+to anything.
+
+17:12.440 --> 17:12.660
+Right.
+
+17:12.880 --> 17:13.400
+Each knot
+
+17:13.400 --> 17:13.920
+is designed
+
+17:13.920 --> 17:14.840
+to physically snap
+
+17:14.840 --> 17:15.720
+into different
+
+17:15.720 --> 17:16.740
+geometric states
+
+17:16.740 --> 17:17.560
+based purely
+
+17:17.560 --> 17:19.180
+on the raw
+
+17:19.180 --> 17:20.080
+local pressure
+
+17:20.080 --> 17:21.120
+pushing against it
+
+17:21.120 --> 17:22.080
+at that exact
+
+17:22.080 --> 17:23.100
+physical location.
+
+17:23.380 --> 17:23.860
+And the paper
+
+17:23.860 --> 17:24.800
+outlines that this
+
+17:24.800 --> 17:25.780
+operates on
+
+17:25.780 --> 17:26.620
+ternary logic.
+
+17:26.620 --> 17:27.780
+It's not a binary
+
+17:27.780 --> 17:28.420
+system.
+
+17:28.540 --> 17:28.820
+Right.
+
+17:28.900 --> 17:29.720
+It's not a simple
+
+17:29.720 --> 17:30.380
+one or zero,
+
+17:30.620 --> 17:31.420
+not just open
+
+17:31.420 --> 17:32.000
+or closed.
+
+17:32.280 --> 17:33.080
+The knot has
+
+17:33.080 --> 17:34.120
+three distinct
+
+17:34.120 --> 17:35.080
+physical states
+
+17:35.080 --> 17:35.680
+governed by
+
+17:35.680 --> 17:36.720
+specific pressure
+
+17:36.720 --> 17:37.620
+thresholds.
+
+17:37.680 --> 17:38.160
+Exactly.
+
+17:38.520 --> 17:38.960
+Think of the
+
+17:38.960 --> 17:39.780
+physics of the node.
+
+17:40.120 --> 17:40.340
+Yeah.
+
+17:40.620 --> 17:41.340
+If the local
+
+17:41.340 --> 17:42.260
+pressure surging
+
+17:42.260 --> 17:42.800
+through that
+
+17:42.800 --> 17:43.780
+specific pipe
+
+17:43.780 --> 17:45.200
+exceeds a hard
+
+17:45.200 --> 17:46.180
+upper threshold.
+
+17:46.400 --> 17:47.180
+Like a huge
+
+17:47.180 --> 17:48.180
+surge of water.
+
+17:48.580 --> 17:48.840
+Right.
+
+17:48.960 --> 17:49.420
+The raw
+
+17:49.420 --> 17:50.360
+mechanical force
+
+17:50.360 --> 17:50.920
+of the water
+
+17:50.920 --> 17:52.720
+physically snaps
+
+17:52.720 --> 17:53.360
+the internal
+
+17:53.360 --> 17:54.440
+geometry of the
+
+17:54.440 --> 17:55.700
+knot into state
+
+17:55.700 --> 17:56.120
+one.
+
+17:56.120 --> 17:56.680
+Okay.
+
+17:57.140 --> 17:58.180
+And in this
+
+17:58.180 --> 17:59.600
+configuration the
+
+17:59.600 --> 18:01.080
+knot actively
+
+18:01.080 --> 18:02.420
+routes the fluid
+
+18:02.420 --> 18:04.060
+forward along
+
+18:04.060 --> 18:04.920
+the primary
+
+18:04.920 --> 18:05.460
+pathway.
+
+18:05.780 --> 18:06.580
+It's kind of
+
+18:06.580 --> 18:07.040
+like blowing
+
+18:07.040 --> 18:07.820
+open a set of
+
+18:07.820 --> 18:08.360
+heavy double
+
+18:08.360 --> 18:08.960
+doors because
+
+18:08.960 --> 18:09.460
+the crowd
+
+18:09.460 --> 18:09.940
+behind them
+
+18:09.940 --> 18:10.360
+is pushing
+
+18:10.360 --> 18:10.880
+too hard.
+
+18:11.360 --> 18:11.940
+That's a great
+
+18:11.940 --> 18:12.420
+way to picture
+
+18:12.420 --> 18:12.560
+it.
+
+18:12.660 --> 18:13.720
+Now conversely
+
+18:13.720 --> 18:15.100
+if the pressure
+
+18:15.100 --> 18:16.400
+plummets below
+
+18:16.400 --> 18:17.440
+a low threshold.
+
+18:17.500 --> 18:17.960
+For instance
+
+18:17.960 --> 18:18.860
+during that
+
+18:18.860 --> 18:19.900
+massive vacuum
+
+18:19.900 --> 18:20.900
+collapse in the
+
+18:20.900 --> 18:21.700
+clamp phase.
+
+18:21.820 --> 18:22.280
+Exactly.
+
+18:22.280 --> 18:23.460
+the lack
+
+18:23.460 --> 18:24.100
+of resistance
+
+18:24.100 --> 18:25.320
+causes the
+
+18:25.320 --> 18:26.300
+knot to snap
+
+18:26.300 --> 18:26.860
+into state
+
+18:26.860 --> 18:27.560
+meg is one.
+
+18:27.800 --> 18:27.940
+Okay.
+
+18:28.900 --> 18:29.660
+This geometry
+
+18:29.660 --> 18:30.960
+actively routes
+
+18:30.960 --> 18:31.920
+fluid in reverse
+
+18:31.920 --> 18:33.120
+pulling material
+
+18:33.120 --> 18:33.840
+backward through
+
+18:33.840 --> 18:34.320
+the network.
+
+18:34.440 --> 18:34.620
+Okay.
+
+18:34.800 --> 18:35.240
+So we have
+
+18:35.240 --> 18:35.920
+one and
+
+18:35.920 --> 18:36.640
+meg is one.
+
+18:37.040 --> 18:37.620
+But what about
+
+18:37.620 --> 18:38.360
+the third state?
+
+18:38.440 --> 18:38.920
+What happens
+
+18:38.920 --> 18:39.620
+when the pressure
+
+18:39.620 --> 18:40.300
+is just sort of
+
+18:40.300 --> 18:41.020
+hovering in the
+
+18:41.020 --> 18:41.780
+middle between
+
+18:41.780 --> 18:42.600
+the high surge
+
+18:42.600 --> 18:43.100
+and the deep
+
+18:43.100 --> 18:43.580
+vacuum?
+
+18:43.580 --> 18:44.380
+The knot
+
+18:44.380 --> 18:45.360
+rests in state
+
+18:45.360 --> 18:45.780
+zero.
+
+18:46.320 --> 18:46.800
+Which is what
+
+18:46.800 --> 18:47.260
+exactly?
+
+18:47.460 --> 18:48.060
+It's a passive
+
+18:48.060 --> 18:48.740
+transitional
+
+18:48.740 --> 18:49.400
+configuration.
+
+18:50.020 --> 18:50.400
+It doesn't
+
+18:50.400 --> 18:51.280
+actively force
+
+18:51.280 --> 18:52.020
+flow in either
+
+18:52.020 --> 18:52.600
+direction.
+
+18:52.720 --> 18:53.120
+So it just
+
+18:53.120 --> 18:53.700
+lets it ride.
+
+18:53.740 --> 18:54.060
+Basically.
+
+18:54.340 --> 18:54.860
+It simply
+
+18:54.860 --> 18:55.440
+allows the
+
+18:55.440 --> 18:56.040
+ambient fluid
+
+18:56.040 --> 18:56.800
+dynamics to
+
+18:56.800 --> 18:57.660
+dictate movement
+
+18:57.660 --> 18:58.740
+until a pressure
+
+18:58.740 --> 18:59.420
+threshold is
+
+18:59.420 --> 19:00.100
+crossed again.
+
+19:00.280 --> 19:01.180
+That is so
+
+19:01.180 --> 19:01.660
+elegant.
+
+19:02.300 --> 19:03.540
+And the
+
+19:03.540 --> 19:04.220
+absolute
+
+19:04.220 --> 19:05.100
+brilliance here
+
+19:05.100 --> 19:05.540
+is the
+
+19:05.540 --> 19:06.060
+isolation.
+
+19:06.680 --> 19:07.060
+What do you
+
+19:07.060 --> 19:07.280
+mean?
+
+19:07.480 --> 19:08.640
+Well no
+
+19:08.640 --> 19:09.360
+central brain
+
+19:09.360 --> 19:09.860
+is pulling
+
+19:09.860 --> 19:10.440
+the network
+
+19:10.440 --> 19:12.040
+asking not
+
+19:12.040 --> 19:13.040
+section 47
+
+19:13.040 --> 19:13.880
+what is your
+
+19:13.880 --> 19:14.440
+current pressure
+
+19:14.440 --> 19:14.880
+status?
+
+19:15.380 --> 19:16.360
+Oh right.
+
+19:16.360 --> 19:16.880
+The system
+
+19:16.880 --> 19:17.640
+collectively
+
+19:17.640 --> 19:18.640
+instantly
+
+19:18.640 --> 19:19.400
+resolves its
+
+19:19.400 --> 19:20.280
+entire rotting
+
+19:20.280 --> 19:21.020
+configuration
+
+19:21.020 --> 19:22.260
+across thousands
+
+19:22.260 --> 19:22.940
+of nodes
+
+19:22.940 --> 19:24.060
+using only
+
+19:24.060 --> 19:24.640
+local
+
+19:24.640 --> 19:25.300
+physical
+
+19:25.300 --> 19:25.920
+information.
+
+19:26.400 --> 19:26.980
+I'm picturing
+
+19:26.980 --> 19:27.860
+an incredibly
+
+19:27.860 --> 19:29.080
+complex city
+
+19:29.080 --> 19:29.720
+intersection.
+
+19:30.020 --> 19:30.520
+Okay what's
+
+19:30.520 --> 19:30.680
+here?
+
+19:30.940 --> 19:31.440
+If you have
+
+19:31.440 --> 19:31.940
+a traditional
+
+19:31.940 --> 19:32.760
+traffic light
+
+19:32.760 --> 19:33.200
+that's your
+
+19:33.200 --> 19:33.960
+central computer
+
+19:33.960 --> 19:35.880
+a timer runs
+
+19:35.880 --> 19:36.780
+the light turns
+
+19:36.780 --> 19:38.020
+green and it
+
+19:38.020 --> 19:38.500
+doesn't matter
+
+19:38.500 --> 19:38.960
+if the road
+
+19:38.960 --> 19:39.420
+is empty
+
+19:39.420 --> 19:39.940
+or completely
+
+19:39.940 --> 19:40.380
+packed
+
+19:40.380 --> 19:41.140
+the central
+
+19:41.140 --> 19:41.940
+timer dictates
+
+19:41.940 --> 19:42.460
+the flow.
+
+19:43.060 --> 19:43.440
+But this
+
+19:43.440 --> 19:44.320
+fluidic lattice
+
+19:44.320 --> 19:45.260
+is like an
+
+19:45.260 --> 19:45.800
+interception
+
+19:45.800 --> 19:46.300
+with no
+
+19:46.300 --> 19:47.260
+lights where
+
+19:47.260 --> 19:47.800
+the sheer
+
+19:47.800 --> 19:48.680
+physical weight
+
+19:48.680 --> 19:49.260
+of the cars
+
+19:49.260 --> 19:49.680
+waiting on
+
+19:49.680 --> 19:50.260
+the asphalt
+
+19:50.260 --> 19:51.180
+actually pushes
+
+19:51.180 --> 19:51.800
+down on a
+
+19:51.800 --> 19:52.440
+physical lever.
+
+19:52.840 --> 19:52.980
+Yeah.
+
+19:53.300 --> 19:54.160
+If 50 cars
+
+19:54.160 --> 19:54.940
+pile up the
+
+19:54.940 --> 19:55.480
+pressure is
+
+19:55.480 --> 19:56.120
+immense the
+
+19:56.120 --> 19:56.780
+lever physically
+
+19:56.780 --> 19:57.940
+depresses the
+
+19:57.940 --> 19:58.960
+road opens and
+
+19:58.960 --> 19:59.420
+the traffic
+
+19:59.420 --> 19:59.880
+flows.
+
+20:00.340 --> 20:00.740
+The traffic
+
+20:00.740 --> 20:01.580
+itself is the
+
+20:01.580 --> 20:02.680
+computer the
+
+20:02.680 --> 20:03.180
+weight of the
+
+20:03.180 --> 20:04.020
+problem solves
+
+20:04.020 --> 20:04.640
+the problem.
+
+20:05.060 --> 20:05.840
+That is exactly
+
+20:05.840 --> 20:07.140
+it and to take
+
+20:07.140 --> 20:07.680
+that traffic
+
+20:07.680 --> 20:08.500
+analogy even
+
+20:08.500 --> 20:09.900
+further imagine
+
+20:09.900 --> 20:10.520
+if the cars
+
+20:10.520 --> 20:11.280
+themselves were
+
+20:11.280 --> 20:12.200
+physically paving
+
+20:12.200 --> 20:13.080
+the most efficient
+
+20:13.080 --> 20:14.020
+route out of the
+
+20:14.020 --> 20:14.540
+city as they
+
+20:14.540 --> 20:14.840
+drove.
+
+20:14.840 --> 20:15.340
+Okay wait
+
+20:15.340 --> 20:15.600
+what?
+
+20:16.120 --> 20:16.700
+Because these
+
+20:16.700 --> 20:17.560
+knots aren't just
+
+20:17.560 --> 20:18.440
+reacting blindly
+
+20:18.440 --> 20:19.660
+to surges they
+
+20:19.660 --> 20:20.380
+are collectively
+
+20:20.380 --> 20:21.920
+solving a massive
+
+20:21.920 --> 20:23.460
+continuous mathematical
+
+20:23.460 --> 20:24.800
+optimization problem.
+
+20:24.940 --> 20:26.260
+Oh right the
+
+20:26.260 --> 20:27.040
+loss function.
+
+20:27.340 --> 20:29.040
+Yes the paper lays
+
+20:29.040 --> 20:29.740
+out a loss
+
+20:29.740 --> 20:30.720
+function an
+
+20:30.720 --> 20:31.620
+equation that the
+
+20:31.620 --> 20:32.300
+physical pipe
+
+20:32.300 --> 20:33.000
+network is
+
+20:33.000 --> 20:33.820
+constantly trying
+
+20:33.820 --> 20:34.340
+to minimize
+
+20:34.340 --> 20:35.740
+without a single
+
+20:35.740 --> 20:36.600
+line of digital
+
+20:36.600 --> 20:37.020
+code.
+
+20:37.180 --> 20:37.940
+It naturally
+
+20:37.940 --> 20:38.460
+solves an
+
+20:38.460 --> 20:39.160
+equation that
+
+20:39.160 --> 20:40.340
+minimizes three
+
+20:40.340 --> 20:41.580
+specific penalties.
+
+20:41.580 --> 20:43.020
+let's look at
+
+20:43.020 --> 20:43.460
+the physical
+
+20:43.460 --> 20:44.200
+reality of
+
+20:44.200 --> 20:44.680
+these lost
+
+20:44.680 --> 20:45.360
+terms because
+
+20:45.360 --> 20:46.060
+they are
+
+20:46.060 --> 20:47.160
+really fascinating.
+
+20:47.360 --> 20:47.600
+They really
+
+20:47.600 --> 20:47.880
+are.
+
+20:48.040 --> 20:48.560
+The first
+
+20:48.560 --> 20:49.180
+penalty the
+
+20:49.180 --> 20:49.880
+physical pipes
+
+20:49.880 --> 20:50.680
+try to minimize
+
+20:50.680 --> 20:51.620
+is some
+
+20:51.620 --> 20:52.520
+optimal flow
+
+20:52.520 --> 20:53.060
+paths.
+
+20:53.460 --> 20:53.620
+Right.
+
+20:54.120 --> 20:55.000
+Because water
+
+20:55.000 --> 20:56.160
+fundamentally
+
+20:56.160 --> 20:57.320
+is lazy.
+
+20:57.720 --> 20:58.320
+True.
+
+20:58.540 --> 20:59.200
+It constantly
+
+20:59.200 --> 21:00.180
+seeks the path
+
+21:00.180 --> 21:00.540
+of least
+
+21:00.540 --> 21:01.100
+resistance.
+
+21:01.860 --> 21:03.140
+If a specific
+
+21:03.140 --> 21:04.160
+routing configuration
+
+21:04.160 --> 21:05.380
+is forcing fluid
+
+21:05.380 --> 21:06.480
+down a convoluted
+
+21:06.480 --> 21:07.100
+high friction
+
+21:07.100 --> 21:08.460
+pathway full of
+
+21:08.460 --> 21:10.020
+sharp turns that
+
+21:10.020 --> 21:10.800
+physical friction
+
+21:10.800 --> 21:11.740
+creates a local
+
+21:11.740 --> 21:12.560
+pressure buildup
+
+21:12.560 --> 21:13.120
+behind it.
+
+21:13.200 --> 21:13.620
+Because it's
+
+21:13.620 --> 21:14.360
+resisting the
+
+21:14.360 --> 21:14.680
+flow.
+
+21:14.960 --> 21:15.160
+Right.
+
+21:15.600 --> 21:16.160
+And that
+
+21:16.160 --> 21:17.200
+localized high
+
+21:17.200 --> 21:18.740
+pressure eventually
+
+21:18.740 --> 21:19.620
+hits the upper
+
+21:19.620 --> 21:20.480
+threshold of a
+
+21:20.480 --> 21:21.520
+knot forcing it
+
+21:21.520 --> 21:22.580
+to snap into a
+
+21:22.580 --> 21:23.520
+new state and
+
+21:23.520 --> 21:24.340
+open a different
+
+21:24.340 --> 21:25.440
+wider pathway.
+
+21:25.840 --> 21:26.520
+The physical
+
+21:26.520 --> 21:27.680
+pressure inherently
+
+21:27.680 --> 21:28.740
+punishes bad
+
+21:28.740 --> 21:29.140
+routing.
+
+21:29.520 --> 21:29.980
+Precisely.
+
+21:30.220 --> 21:30.760
+The second
+
+21:30.760 --> 21:31.500
+penalty the
+
+21:31.500 --> 21:32.340
+system minimizes
+
+21:32.340 --> 21:33.180
+is excess
+
+21:33.180 --> 21:34.200
+energy expenditure.
+
+21:34.520 --> 21:34.820
+Right.
+
+21:35.240 --> 21:36.240
+If a specific
+
+21:36.240 --> 21:37.260
+configuration of
+
+21:37.260 --> 21:37.740
+the lattice
+
+21:37.740 --> 21:38.900
+requires a massive
+
+21:38.900 --> 21:39.400
+amount of
+
+21:39.400 --> 21:40.120
+kinetic energy
+
+21:40.120 --> 21:41.340
+just to push
+
+21:41.340 --> 21:41.820
+the liquid
+
+21:41.820 --> 21:42.900
+through it's
+
+21:42.900 --> 21:43.560
+unsustainable.
+
+21:43.920 --> 21:44.220
+So what
+
+21:44.220 --> 21:44.720
+happens?
+
+21:45.420 --> 21:45.800
+The fluid
+
+21:45.800 --> 21:46.520
+dynamics will
+
+21:46.520 --> 21:47.400
+naturally shift
+
+21:47.400 --> 21:48.840
+relaxing the
+
+21:48.840 --> 21:49.640
+entire physical
+
+21:49.640 --> 21:50.600
+network into a
+
+21:50.600 --> 21:51.360
+lower energy
+
+21:51.360 --> 21:52.400
+highly efficient
+
+21:52.400 --> 21:52.880
+state.
+
+21:53.160 --> 21:54.080
+The water just
+
+21:54.080 --> 21:54.580
+finds the
+
+21:54.580 --> 21:55.320
+easiest way to
+
+21:55.320 --> 21:55.580
+move.
+
+21:55.760 --> 21:56.320
+And the third
+
+21:56.320 --> 21:57.180
+penalty is the
+
+21:57.180 --> 21:57.760
+one that really
+
+21:57.760 --> 21:58.480
+highlights the
+
+21:58.480 --> 21:59.220
+difference between
+
+21:59.220 --> 22:00.120
+physical and
+
+22:00.120 --> 22:01.240
+digital computation
+
+22:01.240 --> 22:01.820
+I think.
+
+22:02.160 --> 22:03.060
+Mechanical wear.
+
+22:03.420 --> 22:03.880
+Absolutely.
+
+22:04.180 --> 22:04.840
+Because a digital
+
+22:04.840 --> 22:05.840
+computer never has
+
+22:05.840 --> 22:06.720
+to worry about its
+
+22:06.720 --> 22:07.880
+if-in statements
+
+22:07.880 --> 22:08.940
+physically wearing
+
+22:08.940 --> 22:09.340
+out.
+
+22:09.660 --> 22:10.300
+Code doesn't
+
+22:10.300 --> 22:10.760
+rust.
+
+22:11.100 --> 22:11.680
+Code doesn't
+
+22:11.680 --> 22:12.560
+rust or grind
+
+22:12.560 --> 22:12.900
+down.
+
+22:13.480 --> 22:14.020
+But in a
+
+22:14.020 --> 22:14.920
+physical fluidic
+
+22:14.920 --> 22:15.840
+lattice the valves
+
+22:15.840 --> 22:16.360
+are made of
+
+22:16.360 --> 22:17.540
+actual material.
+
+22:17.760 --> 22:17.980
+Right.
+
+22:18.100 --> 22:18.820
+Steel and seals.
+
+22:19.260 --> 22:20.360
+If a knot is
+
+22:20.360 --> 22:21.600
+constantly fluttering
+
+22:21.600 --> 22:22.760
+back and forth
+
+22:22.760 --> 22:24.160
+vibrating intensely
+
+22:24.160 --> 22:25.180
+between state one
+
+22:25.180 --> 22:26.100
+and state minus one
+
+22:26.100 --> 22:27.380
+every millisecond
+
+22:27.380 --> 22:28.720
+it's going to
+
+22:28.720 --> 22:29.460
+literally tear
+
+22:29.460 --> 22:30.180
+itself apart.
+
+22:30.560 --> 22:31.500
+And that is the
+
+22:31.500 --> 22:32.620
+genius Flyxion's
+
+22:32.620 --> 22:33.500
+threshold design.
+
+22:33.980 --> 22:34.680
+The system
+
+22:34.680 --> 22:35.940
+naturally dampens
+
+22:35.940 --> 22:36.500
+that kind of
+
+22:36.500 --> 22:37.220
+high frequency
+
+22:37.220 --> 22:37.960
+oscillation.
+
+22:37.960 --> 22:38.620
+How does it do
+
+22:38.620 --> 22:38.880
+that?
+
+22:39.000 --> 22:39.560
+The pressure
+
+22:39.560 --> 22:40.240
+differentials
+
+22:40.240 --> 22:40.980
+required to
+
+22:40.980 --> 22:41.780
+change a state
+
+22:41.780 --> 22:42.740
+are wide enough
+
+22:42.740 --> 22:43.880
+that the system
+
+22:43.880 --> 22:45.080
+seeks stable
+
+22:45.080 --> 22:46.380
+locked-in
+
+22:46.380 --> 22:46.900
+routing
+
+22:46.900 --> 22:47.660
+configurations.
+
+22:48.120 --> 22:48.580
+Ah.
+
+22:48.940 --> 22:49.800
+It physically
+
+22:49.800 --> 22:51.000
+resists flutter
+
+22:51.000 --> 22:52.220
+to minimize
+
+22:52.220 --> 22:53.500
+the deterioration
+
+22:53.500 --> 22:53.940
+of its own
+
+22:53.940 --> 22:54.520
+architecture.
+
+22:54.740 --> 22:55.180
+Man.
+
+22:55.400 --> 22:55.740
+If you're
+
+22:55.740 --> 22:56.220
+listening to
+
+22:56.220 --> 22:56.760
+this just
+
+22:56.760 --> 22:57.600
+pause and
+
+22:57.600 --> 22:58.140
+think about
+
+22:58.140 --> 22:59.000
+how liberating
+
+22:59.000 --> 22:59.680
+this is from
+
+22:59.680 --> 23:00.300
+an engineering
+
+23:00.300 --> 23:00.960
+perspective.
+
+23:01.160 --> 23:01.780
+It's huge.
+
+23:02.200 --> 23:02.720
+We live in a
+
+23:02.720 --> 23:03.500
+world basically
+
+23:03.500 --> 23:04.480
+paralyzed by
+
+23:04.480 --> 23:05.400
+digital fragility.
+
+23:05.400 --> 23:06.240
+We worry
+
+23:06.240 --> 23:07.220
+about software
+
+23:07.220 --> 23:08.020
+bugs crashing
+
+23:08.020 --> 23:08.580
+airplanes.
+
+23:08.800 --> 23:09.160
+We worry
+
+23:09.160 --> 23:10.560
+about hostile
+
+23:10.560 --> 23:11.780
+hackers infiltrating
+
+23:11.780 --> 23:12.440
+the digital
+
+23:12.440 --> 23:13.400
+control systems
+
+23:13.400 --> 23:14.060
+of power
+
+23:14.060 --> 23:14.680
+plants and
+
+23:14.680 --> 23:15.420
+water treatment
+
+23:15.420 --> 23:15.960
+facilities.
+
+23:16.000 --> 23:16.200
+Yeah.
+
+23:16.400 --> 23:16.760
+A single
+
+23:16.760 --> 23:17.400
+typo in a
+
+23:17.400 --> 23:17.920
+million lines
+
+23:17.920 --> 23:18.460
+of code
+
+23:18.460 --> 23:19.000
+can halt
+
+23:19.000 --> 23:19.500
+the factory.
+
+23:19.660 --> 23:19.980
+Exactly.
+
+23:20.180 --> 23:20.600
+But here,
+
+23:21.320 --> 23:21.820
+you cannot
+
+23:21.820 --> 23:22.520
+hack a steel
+
+23:22.520 --> 23:22.940
+pipe.
+
+23:23.180 --> 23:23.500
+No, you
+
+23:23.500 --> 23:23.820
+can't.
+
+23:23.940 --> 23:24.300
+There are
+
+23:24.300 --> 23:24.820
+no software
+
+23:24.820 --> 23:25.480
+bugs because
+
+23:25.480 --> 23:26.160
+there is no
+
+23:26.160 --> 23:26.600
+software.
+
+23:27.020 --> 23:27.700
+The machine
+
+23:27.700 --> 23:28.600
+calculates the
+
+23:28.600 --> 23:29.500
+optimal flow of
+
+23:29.500 --> 23:30.460
+energy simply
+
+23:30.460 --> 23:31.540
+by existing
+
+23:31.540 --> 23:32.620
+and experiencing
+
+23:32.620 --> 23:33.720
+physical force.
+
+23:33.720 --> 23:34.720
+It is an
+
+23:34.720 --> 23:35.380
+incredibly
+
+23:35.380 --> 23:36.200
+robust,
+
+23:37.440 --> 23:37.860
+virtually
+
+23:37.860 --> 23:38.880
+indestructible
+
+23:38.880 --> 23:39.740
+way to
+
+23:39.740 --> 23:40.400
+design an
+
+23:40.400 --> 23:40.820
+industrial
+
+23:40.820 --> 23:41.380
+system.
+
+23:41.580 --> 23:41.980
+And because
+
+23:41.980 --> 23:42.620
+this knot
+
+23:42.620 --> 23:43.340
+lattice is
+
+23:43.340 --> 23:44.200
+constantly
+
+23:44.200 --> 23:45.240
+physically
+
+23:45.240 --> 23:46.260
+calculating the
+
+23:46.260 --> 23:47.100
+optimal paths
+
+23:47.100 --> 23:47.900
+in real time,
+
+23:48.100 --> 23:49.000
+it completely
+
+23:49.000 --> 23:49.980
+transforms how
+
+23:49.980 --> 23:50.720
+we view energy
+
+23:50.720 --> 23:51.620
+storage, too.
+
+23:51.680 --> 23:52.280
+Oh, absolutely.
+
+23:53.020 --> 23:53.460
+Remember the
+
+23:53.460 --> 23:54.400
+recovery phase we
+
+23:54.400 --> 23:54.980
+talked about?
+
+23:55.280 --> 23:56.100
+The massive
+
+23:56.100 --> 23:56.980
+compression plate
+
+23:56.980 --> 23:57.760
+dropping and
+
+23:57.760 --> 23:58.440
+pushing fluid
+
+23:58.440 --> 23:58.840
+through the
+
+23:58.840 --> 23:59.080
+turbines?
+
+23:59.120 --> 23:59.860
+Yes, capturing
+
+23:59.860 --> 24:00.440
+the gravitational
+
+24:00.440 --> 24:01.760
+potential energy.
+
+24:01.760 --> 24:01.940
+Right.
+
+24:02.020 --> 24:02.700
+In a traditional
+
+24:02.700 --> 24:03.720
+mechanical system,
+
+24:04.040 --> 24:04.660
+the release of
+
+24:04.660 --> 24:05.360
+that gravitational
+
+24:05.360 --> 24:06.460
+energy is fixed.
+
+24:06.660 --> 24:07.340
+You pull a lever,
+
+24:07.820 --> 24:08.580
+the weight drops,
+
+24:08.880 --> 24:09.620
+and the energy
+
+24:09.620 --> 24:10.520
+travels down a
+
+24:10.520 --> 24:11.760
+single predetermined
+
+24:11.760 --> 24:13.080
+mechanical shaft.
+
+24:13.220 --> 24:13.520
+Right.
+
+24:14.060 --> 24:14.540
+But in the
+
+24:14.540 --> 24:15.440
+caldera reactor,
+
+24:15.960 --> 24:16.640
+the descent of
+
+24:16.640 --> 24:17.760
+the plate pushes
+
+24:17.760 --> 24:18.700
+fluid into the
+
+24:18.700 --> 24:19.340
+knot lattice.
+
+24:20.040 --> 24:20.740
+And because the
+
+24:20.740 --> 24:21.220
+lattice is
+
+24:21.220 --> 24:22.440
+constantly calculating,
+
+24:22.880 --> 24:23.340
+the energy
+
+24:23.340 --> 24:24.020
+release becomes
+
+24:24.020 --> 24:24.940
+entirely dynamic.
+
+24:25.080 --> 24:26.080
+Dynamic, meaning
+
+24:26.080 --> 24:26.860
+it adapts.
+
+24:26.880 --> 24:27.140
+Yes.
+
+24:27.520 --> 24:28.180
+Flyxion actually
+
+24:28.180 --> 24:29.180
+refers to it as
+
+24:29.180 --> 24:30.240
+a programmable
+
+24:30.240 --> 24:31.380
+discharge battery.
+
+24:31.380 --> 24:32.200
+We usually
+
+24:32.200 --> 24:32.680
+think of a
+
+24:32.680 --> 24:33.300
+battery as a
+
+24:33.300 --> 24:34.240
+passive bucket
+
+24:34.240 --> 24:35.120
+of power, right?
+
+24:35.120 --> 24:35.300
+Right.
+
+24:35.380 --> 24:35.960
+You charge up
+
+24:35.960 --> 24:36.680
+your phone battery
+
+24:36.680 --> 24:37.760
+and when you
+
+24:37.760 --> 24:38.560
+open an app,
+
+24:39.100 --> 24:39.800
+the energy just
+
+24:39.800 --> 24:40.840
+passively drains
+
+24:40.840 --> 24:41.260
+out.
+
+24:41.620 --> 24:42.420
+But this is a
+
+24:42.420 --> 24:43.180
+bucket of power
+
+24:43.180 --> 24:43.900
+that actively
+
+24:43.900 --> 24:45.020
+decides exactly
+
+24:45.020 --> 24:46.620
+how, when,
+
+24:46.880 --> 24:47.640
+and where to
+
+24:47.640 --> 24:49.000
+pour itself based
+
+24:49.000 --> 24:50.040
+on the real-time
+
+24:50.040 --> 24:51.000
+demands of its
+
+24:51.000 --> 24:51.440
+environment.
+
+24:52.100 --> 24:52.640
+It's brilliant.
+
+24:52.940 --> 24:53.920
+And to really
+
+24:53.920 --> 24:54.680
+understand how
+
+24:54.680 --> 24:55.660
+massive a leap
+
+24:55.660 --> 24:56.940
+this is, the
+
+24:56.940 --> 24:58.460
+paper contrasts the
+
+24:58.460 --> 24:59.260
+caldera system
+
+24:59.260 --> 25:00.560
+directly with
+
+25:00.560 --> 25:01.320
+something highly
+
+25:01.320 --> 25:02.040
+relevant in
+
+25:02.040 --> 25:02.820
+modern energy
+
+25:02.820 --> 25:03.420
+right now.
+
+25:03.720 --> 25:04.260
+The thermal
+
+25:04.260 --> 25:05.180
+sand battery.
+
+25:05.320 --> 25:05.540
+Yes.
+
+25:05.680 --> 25:06.240
+Sand batteries
+
+25:06.240 --> 25:06.920
+are everywhere
+
+25:06.920 --> 25:07.680
+in the engineering
+
+25:07.680 --> 25:08.400
+news right now.
+
+25:08.440 --> 25:08.900
+And the premise
+
+25:08.900 --> 25:09.840
+is very elegant,
+
+25:10.000 --> 25:10.380
+actually.
+
+25:10.560 --> 25:10.920
+It is.
+
+25:11.020 --> 25:11.440
+You have a
+
+25:11.440 --> 25:12.280
+massive wind
+
+25:12.280 --> 25:13.300
+farm, and
+
+25:13.300 --> 25:14.020
+it's generating
+
+25:14.020 --> 25:14.940
+peak electricity
+
+25:14.940 --> 25:16.180
+at 3.00 a.m.
+
+25:16.200 --> 25:16.900
+when the grid
+
+25:16.900 --> 25:17.580
+doesn't need it.
+
+25:17.600 --> 25:17.800
+Right.
+
+25:17.900 --> 25:18.720
+Everyone's asleep.
+
+25:18.900 --> 25:19.380
+Exactly.
+
+25:19.860 --> 25:20.680
+So instead of
+
+25:20.680 --> 25:21.440
+wasting it,
+
+25:21.500 --> 25:22.260
+you use that
+
+25:22.260 --> 25:23.200
+electricity to
+
+25:23.200 --> 25:24.220
+power giant
+
+25:24.220 --> 25:25.480
+resistive heaters
+
+25:25.480 --> 25:26.460
+buried inside a
+
+25:26.460 --> 25:27.440
+massive insulated
+
+25:27.440 --> 25:28.640
+silo filled with
+
+25:28.640 --> 25:29.720
+thousands of
+
+25:29.720 --> 25:30.900
+tons of sand.
+
+25:31.040 --> 25:31.940
+Because sand has
+
+25:31.940 --> 25:32.460
+an incredible
+
+25:32.460 --> 25:33.460
+capacity to hold
+
+25:33.460 --> 25:33.880
+on to heat.
+
+25:34.060 --> 25:34.300
+Right.
+
+25:34.580 --> 25:35.340
+Then, a week
+
+25:35.340 --> 25:36.020
+later, when a
+
+25:36.020 --> 25:36.900
+winter storm hits
+
+25:36.900 --> 25:37.340
+and you need
+
+25:37.340 --> 25:38.400
+energy, you
+
+25:38.400 --> 25:39.420
+extract that
+
+25:39.420 --> 25:40.360
+trapped heat to
+
+25:40.360 --> 25:41.000
+warm a city
+
+25:41.000 --> 25:42.060
+block or run a
+
+25:42.060 --> 25:42.400
+factory.
+
+25:42.660 --> 25:43.620
+It's a phenomenal
+
+25:43.620 --> 25:44.720
+way to store bulk
+
+25:44.720 --> 25:45.120
+energy.
+
+25:45.260 --> 25:45.520
+Yeah.
+
+25:45.880 --> 25:46.440
+But Flyxion
+
+25:46.440 --> 25:47.080
+points out its
+
+25:47.080 --> 25:48.280
+fundamental limitation.
+
+25:48.640 --> 25:48.860
+Yeah.
+
+25:49.500 --> 25:50.360
+It is entirely
+
+25:50.360 --> 25:51.040
+passive.
+
+25:51.360 --> 25:51.880
+Passive.
+
+25:52.060 --> 25:53.040
+Meaning the
+
+25:53.040 --> 25:53.860
+release of energy
+
+25:53.860 --> 25:54.380
+in a sand
+
+25:54.380 --> 25:55.820
+battery is governed
+
+25:55.820 --> 25:56.960
+exclusively by
+
+25:56.960 --> 25:57.820
+thermal diffusion.
+
+25:58.640 --> 25:59.800
+Heat naturally
+
+25:59.800 --> 26:00.700
+flows from hot
+
+26:00.700 --> 26:01.440
+areas to cold
+
+26:01.440 --> 26:01.820
+areas.
+
+26:02.420 --> 26:03.460
+It obeys a
+
+26:03.460 --> 26:04.180
+simple scalar
+
+26:04.180 --> 26:05.060
+temperature field.
+
+26:05.460 --> 26:05.980
+So you can't
+
+26:05.980 --> 26:06.580
+control it?
+
+26:07.140 --> 26:07.780
+Not really.
+
+26:07.980 --> 26:09.320
+As the operator,
+
+26:09.700 --> 26:10.700
+you cannot tell
+
+26:10.700 --> 26:11.400
+the heat how to
+
+26:11.400 --> 26:12.740
+move or which
+
+26:12.740 --> 26:13.820
+specific path to
+
+26:13.820 --> 26:14.420
+take through the
+
+26:14.420 --> 26:14.740
+sand.
+
+26:15.000 --> 26:15.920
+You just open a
+
+26:15.920 --> 26:16.720
+thermal valve and
+
+26:16.720 --> 26:17.340
+the heat bleeds
+
+26:17.340 --> 26:18.220
+out according to
+
+26:18.220 --> 26:19.400
+basic thermodynamics.
+
+26:19.720 --> 26:20.400
+If you want to
+
+26:20.400 --> 26:21.440
+optimize a sand
+
+26:21.440 --> 26:22.300
+battery, your only
+
+26:22.300 --> 26:23.120
+real option is
+
+26:23.120 --> 26:24.680
+basically to buy
+
+26:24.680 --> 26:26.100
+thicker fiberglass
+
+26:26.100 --> 26:27.620
+insulation to stop
+
+26:27.620 --> 26:28.300
+the heat from
+
+26:28.300 --> 26:29.000
+leaking out the
+
+26:29.000 --> 26:29.440
+sides.
+
+26:29.860 --> 26:30.300
+Exactly.
+
+26:30.660 --> 26:31.300
+The intelligence
+
+26:31.300 --> 26:32.200
+of the system is
+
+26:32.200 --> 26:32.500
+zero.
+
+26:32.920 --> 26:33.680
+It's just a hot
+
+26:33.680 --> 26:34.280
+rock and a
+
+26:34.280 --> 26:34.620
+thermos.
+
+26:34.660 --> 26:35.300
+Hot rock and a
+
+26:35.300 --> 26:35.680
+thermos.
+
+26:35.860 --> 26:36.140
+Right.
+
+26:36.440 --> 26:37.300
+But the Caldera
+
+26:37.300 --> 26:39.000
+reactor, acting as
+
+26:39.000 --> 26:39.900
+a programmable
+
+26:39.900 --> 26:41.320
+battery, requires
+
+26:41.320 --> 26:42.100
+what the paper
+
+26:42.100 --> 26:43.020
+calls a full
+
+26:43.020 --> 26:43.900
+coupled field
+
+26:43.900 --> 26:44.440
+description.
+
+26:44.740 --> 26:44.960
+Right.
+
+26:45.040 --> 26:45.600
+You don't just
+
+26:45.600 --> 26:46.500
+have energy waiting
+
+26:46.500 --> 26:46.940
+to leak.
+
+26:47.100 --> 26:47.860
+You have a highly
+
+26:47.860 --> 26:49.040
+structured environment
+
+26:49.040 --> 26:50.540
+actively negotiating
+
+26:50.540 --> 26:51.200
+the release.
+
+26:51.320 --> 26:51.860
+And the paper
+
+26:51.860 --> 26:52.660
+breaks this down
+
+26:52.660 --> 26:53.400
+into three
+
+26:53.400 --> 26:54.580
+interacting layers,
+
+26:54.720 --> 26:54.820
+right?
+
+26:54.820 --> 26:55.100
+Yes.
+
+26:55.460 --> 26:55.980
+First, you have
+
+26:55.980 --> 26:56.440
+the scalar
+
+26:56.440 --> 26:56.960
+potential.
+
+26:57.140 --> 26:57.580
+In this case,
+
+26:57.640 --> 26:58.020
+the immense
+
+26:58.020 --> 26:58.820
+pressure field
+
+26:58.820 --> 26:59.660
+generated by the
+
+26:59.660 --> 27:00.380
+descending plate.
+
+27:00.740 --> 27:01.420
+Okay, so that
+
+27:01.420 --> 27:02.120
+represents the
+
+27:02.120 --> 27:03.240
+total available
+
+27:03.240 --> 27:04.180
+energy pushing
+
+27:04.180 --> 27:04.780
+against the
+
+27:04.780 --> 27:05.120
+system.
+
+27:05.280 --> 27:05.440
+Right.
+
+27:05.880 --> 27:06.720
+Second, you have
+
+27:06.720 --> 27:07.760
+the trans-quart
+
+27:07.760 --> 27:08.140
+field.
+
+27:08.240 --> 27:08.460
+Yeah.
+
+27:08.600 --> 27:09.380
+That's the actual
+
+27:09.380 --> 27:10.560
+physical velocity
+
+27:10.560 --> 27:11.300
+and movement of
+
+27:11.300 --> 27:12.280
+the water carrying
+
+27:12.280 --> 27:12.880
+that energy.
+
+27:13.060 --> 27:13.200
+Oh, God.
+
+27:13.380 --> 27:13.840
+And third.
+
+27:14.080 --> 27:15.700
+Third, and most
+
+27:15.700 --> 27:17.340
+crucially, you have
+
+27:17.340 --> 27:18.000
+the accessibility
+
+27:18.000 --> 27:18.880
+constraints.
+
+27:19.440 --> 27:19.980
+Which are the
+
+27:19.980 --> 27:21.080
+physical states of
+
+27:21.080 --> 27:21.720
+the knots and
+
+27:21.720 --> 27:22.160
+the lattice.
+
+27:22.720 --> 27:23.240
+Precisely.
+
+27:23.500 --> 27:24.080
+The knots are
+
+27:24.080 --> 27:25.500
+actively, physically
+
+27:25.500 --> 27:26.560
+deciding which
+
+27:26.560 --> 27:27.440
+pathways are
+
+27:27.440 --> 27:28.720
+available for the
+
+27:28.720 --> 27:29.500
+energy to travel
+
+27:29.500 --> 27:29.800
+through.
+
+27:30.120 --> 27:30.520
+Wild.
+
+27:31.000 --> 27:31.500
+As the heavy
+
+27:31.500 --> 27:32.780
+plate drops, the
+
+27:32.780 --> 27:33.600
+system actively
+
+27:33.600 --> 27:34.420
+selects its
+
+27:34.420 --> 27:35.560
+discharge routes in
+
+27:35.560 --> 27:37.140
+real time based on
+
+27:37.140 --> 27:37.640
+the changing
+
+27:37.640 --> 27:38.640
+constraint geometry
+
+27:38.640 --> 27:39.480
+of those nodes.
+
+27:39.600 --> 27:40.360
+So it's evaluating
+
+27:40.360 --> 27:40.900
+the pressure
+
+27:40.900 --> 27:41.960
+landscape across
+
+27:41.960 --> 27:43.280
+the entire six-story
+
+27:43.280 --> 27:43.780
+reactor.
+
+27:44.020 --> 27:44.320
+Right.
+
+27:44.740 --> 27:45.620
+It evaluates it
+
+27:45.620 --> 27:46.260
+and physically
+
+27:46.260 --> 27:46.860
+dictates.
+
+27:47.300 --> 27:47.840
+Routing the
+
+27:47.840 --> 27:48.680
+pressurized fluid
+
+27:48.680 --> 27:49.740
+through turbine A
+
+27:49.740 --> 27:50.860
+is optimal right
+
+27:50.860 --> 27:51.140
+now.
+
+27:51.140 --> 27:52.300
+But a fraction
+
+27:52.300 --> 27:52.720
+of a second
+
+27:52.720 --> 27:53.220
+later, the
+
+27:53.220 --> 27:54.100
+pressure shifts.
+
+27:54.640 --> 27:55.180
+Turbine A is
+
+27:55.180 --> 27:56.400
+saturated, so the
+
+27:56.400 --> 27:57.520
+lattice snaps and
+
+27:57.520 --> 27:58.240
+routes the remaining
+
+27:58.240 --> 27:58.920
+force through
+
+27:58.920 --> 27:59.560
+turbine B.
+
+27:59.760 --> 28:00.140
+Wow.
+
+28:00.500 --> 28:01.440
+It is an active,
+
+28:01.660 --> 28:02.900
+dynamic negotiation
+
+28:02.900 --> 28:04.040
+of energy release,
+
+28:04.580 --> 28:05.980
+shaped entirely by the
+
+28:05.980 --> 28:06.840
+physical limits of
+
+28:06.840 --> 28:07.800
+the system itself.
+
+28:07.920 --> 28:08.880
+It is a machine that
+
+28:08.880 --> 28:09.800
+thinks with water.
+
+28:10.000 --> 28:10.740
+It really is.
+
+28:11.060 --> 28:12.420
+But, you know, as if
+
+28:12.420 --> 28:13.700
+mechanical, fluidic
+
+28:13.700 --> 28:14.880
+thinking wasn't wild
+
+28:14.880 --> 28:16.020
+enough, Flyxion's
+
+28:16.020 --> 28:16.940
+design doesn't stop
+
+28:16.940 --> 28:17.200
+there.
+
+28:17.860 --> 28:18.740
+Not even close.
+
+28:18.740 --> 28:19.740
+The system also
+
+28:19.740 --> 28:20.720
+integrates living
+
+28:20.720 --> 28:22.640
+biological workers and
+
+28:22.640 --> 28:23.440
+a statistical
+
+28:23.440 --> 28:24.900
+artificial intelligence
+
+28:24.900 --> 28:25.700
+overseer.
+
+28:25.820 --> 28:27.140
+It's this incredible
+
+28:27.140 --> 28:29.220
+hybrid brain trying
+
+28:29.220 --> 28:30.100
+to manage the
+
+28:30.100 --> 28:31.680
+chaotic, messy
+
+28:31.680 --> 28:33.960
+reality of raw
+
+28:33.960 --> 28:35.500
+organic sludge.
+
+28:35.680 --> 28:36.740
+Let's dive into the
+
+28:36.740 --> 28:37.880
+biological integration.
+
+28:38.520 --> 28:39.420
+The paper details
+
+28:39.420 --> 28:40.320
+throwing highly
+
+28:40.320 --> 28:41.340
+engineered yeast
+
+28:41.340 --> 28:43.080
+strains directly into
+
+28:43.080 --> 28:44.340
+this brutal high
+
+28:44.340 --> 28:45.120
+pressure compression
+
+28:45.120 --> 28:45.600
+chamber.
+
+28:45.920 --> 28:46.920
+And this is perhaps
+
+28:46.920 --> 28:47.440
+one of the most
+
+28:47.440 --> 28:48.560
+radical departures
+
+28:48.560 --> 28:49.220
+from standard
+
+28:49.220 --> 28:50.140
+industrial biology.
+
+28:50.940 --> 28:51.880
+Normally, if you're
+
+28:51.880 --> 28:52.920
+working with delicate,
+
+28:53.540 --> 28:54.580
+genetically engineered
+
+28:54.580 --> 28:56.160
+yeast, you do it in
+
+28:56.160 --> 28:57.340
+pristine, highly
+
+28:57.340 --> 28:58.520
+controlled, temperature
+
+28:58.520 --> 28:59.700
+regulated, stainless
+
+28:59.700 --> 29:00.840
+steel bioreactors.
+
+29:00.860 --> 29:01.060
+Right.
+
+29:01.160 --> 29:02.140
+You coddle the yeast.
+
+29:02.280 --> 29:03.020
+You coddle the yeast.
+
+29:03.100 --> 29:03.920
+You do not typically
+
+29:03.920 --> 29:05.220
+mix delicate biology
+
+29:05.220 --> 29:06.100
+into a mechanical
+
+29:06.100 --> 29:07.220
+vice that is violently
+
+29:07.220 --> 29:08.060
+crushing ocean
+
+29:08.060 --> 29:09.340
+sediment under massive
+
+29:09.340 --> 29:10.140
+thermo-pneumatic
+
+29:10.140 --> 29:10.620
+pressure.
+
+29:10.840 --> 29:11.320
+But Flyxion does
+
+29:11.320 --> 29:12.000
+exactly that.
+
+29:12.180 --> 29:12.360
+Yep.
+
+29:12.560 --> 29:13.500
+The paper outlines
+
+29:13.500 --> 29:14.580
+three specific
+
+29:14.580 --> 29:15.940
+biological functions
+
+29:15.940 --> 29:17.060
+these yeast strains
+
+29:17.060 --> 29:17.780
+are executing
+
+29:17.780 --> 29:18.600
+within the sludge.
+
+29:19.380 --> 29:20.480
+Glucoamylase production,
+
+29:21.020 --> 29:21.860
+lipase activity,
+
+29:22.200 --> 29:23.400
+and PHA synthesis.
+
+29:23.740 --> 29:24.160
+Right.
+
+29:24.320 --> 29:25.120
+Let's break these down.
+
+29:25.300 --> 29:25.520
+Okay.
+
+29:25.640 --> 29:26.480
+So the yeast are
+
+29:26.480 --> 29:28.000
+producing glucoamylase.
+
+29:28.360 --> 29:29.680
+If I remember my
+
+29:29.680 --> 29:30.620
+high school biology,
+
+29:31.100 --> 29:32.220
+amylase breaks down
+
+29:32.220 --> 29:32.920
+starches.
+
+29:33.100 --> 29:33.280
+Yep.
+
+29:33.600 --> 29:34.800
+So are these yeast
+
+29:34.800 --> 29:36.160
+basically acting like
+
+29:36.160 --> 29:37.740
+microscopic biological
+
+29:37.740 --> 29:39.420
+scissors, chopping up
+
+29:39.420 --> 29:40.700
+the complex, rigid
+
+29:40.700 --> 29:41.880
+starches found in the
+
+29:41.880 --> 29:42.800
+kelp and peat into
+
+29:42.800 --> 29:44.060
+simple, easily
+
+29:44.060 --> 29:45.060
+digestible sugars?
+
+29:45.060 --> 29:46.660
+You've got it, exactly.
+
+29:47.000 --> 29:47.880
+The kelp and sediment
+
+29:47.880 --> 29:49.160
+are locked up in these
+
+29:49.160 --> 29:50.940
+tough, complex
+
+29:50.940 --> 29:51.960
+polysaccharides.
+
+29:52.040 --> 29:52.240
+Okay.
+
+29:52.640 --> 29:54.140
+The glucoamylase enzyme
+
+29:54.140 --> 29:56.060
+cleaves those massive
+
+29:56.060 --> 29:57.420
+molecular chains down
+
+29:57.420 --> 29:58.500
+into simple sugars,
+
+29:59.200 --> 30:00.840
+entirely liquefying the
+
+30:00.840 --> 30:02.020
+solid structure of the
+
+30:02.020 --> 30:03.140
+biomass from the inside
+
+30:03.140 --> 30:03.440
+out.
+
+30:03.620 --> 30:03.960
+Wow.
+
+30:04.280 --> 30:04.540
+Okay.
+
+30:04.620 --> 30:05.560
+And the second function,
+
+30:05.720 --> 30:06.340
+the lipase.
+
+30:06.660 --> 30:08.500
+Lipids are fats and oils.
+
+30:08.880 --> 30:09.120
+Right.
+
+30:09.200 --> 30:10.100
+So is the lipase
+
+30:10.100 --> 30:11.520
+basically acting like a
+
+30:11.520 --> 30:12.920
+hyperaffignant biological
+
+30:12.920 --> 30:13.440
+degreaser?
+
+30:13.440 --> 30:14.820
+That is a perfect
+
+30:14.820 --> 30:15.340
+description.
+
+30:15.640 --> 30:16.580
+The lipase enzymes
+
+30:16.580 --> 30:18.060
+attack the triglycerides
+
+30:18.060 --> 30:19.260
+locked in the cellular
+
+30:19.260 --> 30:20.400
+structure of the sludge.
+
+30:20.660 --> 30:20.940
+Okay.
+
+30:21.200 --> 30:22.220
+They break down those
+
+30:22.220 --> 30:24.000
+complex fats, liberating
+
+30:24.000 --> 30:25.080
+the high energy lipid
+
+30:25.080 --> 30:25.520
+molecules.
+
+30:26.000 --> 30:27.380
+This is the absolute
+
+30:27.380 --> 30:28.280
+core of creating
+
+30:28.280 --> 30:29.600
+valuable biocrude.
+
+30:30.400 --> 30:31.720
+You are extracting the
+
+30:31.720 --> 30:33.160
+oil directly from the
+
+30:33.160 --> 30:34.160
+cellular matrix of the
+
+30:34.160 --> 30:34.640
+ocean mud.
+
+30:34.780 --> 30:37.380
+And finally, the PHA
+
+30:37.380 --> 30:38.780
+synthesis.
+
+30:41.040 --> 30:41.640
+Polyhydroxyalkanoates.
+
+30:41.720 --> 30:42.580
+I hope I said that right.
+
+30:42.580 --> 30:43.120
+You did.
+
+30:43.620 --> 30:44.620
+PHAs are essentially
+
+30:44.620 --> 30:45.980
+biological plastics.
+
+30:46.260 --> 30:47.400
+Biological plastics.
+
+30:47.740 --> 30:47.960
+Right.
+
+30:48.220 --> 30:49.160
+While the first two
+
+30:49.160 --> 30:50.220
+enzymes are tearing the
+
+30:50.220 --> 30:51.700
+sludge apart, the yeast
+
+30:51.700 --> 30:53.120
+itself is taking some of
+
+30:53.120 --> 30:54.580
+the newly available carbon
+
+30:54.580 --> 30:56.360
+from those simple sugars
+
+30:56.360 --> 30:58.360
+and synthesizing these
+
+30:58.360 --> 30:59.900
+complex biopolymers.
+
+31:00.080 --> 31:00.300
+Okay.
+
+31:01.260 --> 31:02.260
+Why is that important?
+
+31:02.520 --> 31:04.100
+PHAs are incredibly
+
+31:04.100 --> 31:05.440
+valuable because they
+
+31:05.440 --> 31:06.600
+perform like traditional
+
+31:06.600 --> 31:08.440
+petroleum plastics, but
+
+31:08.440 --> 31:09.320
+they are entirely
+
+31:09.320 --> 31:09.580
+biodegradable.
+
+31:09.580 --> 31:10.340
+biodegradable.
+
+31:10.340 --> 31:11.700
+So the yeast are acting
+
+31:11.700 --> 31:12.820
+like billions of
+
+31:12.820 --> 31:14.440
+microscopic gears inside
+
+31:14.440 --> 31:15.500
+the larger machine,
+
+31:15.700 --> 31:16.680
+breaking down the tough
+
+31:16.680 --> 31:18.780
+barriers and synthesizing
+
+31:18.780 --> 31:20.060
+valuable products on the
+
+31:20.060 --> 31:20.440
+fly.
+
+31:20.560 --> 31:21.080
+Exactly.
+
+31:21.220 --> 31:22.320
+But the real genius here
+
+31:22.320 --> 31:23.060
+is the environment.
+
+31:23.700 --> 31:25.140
+Why do this inside the
+
+31:25.140 --> 31:25.480
+crusher?
+
+31:26.400 --> 31:27.600
+The paper stresses that
+
+31:27.600 --> 31:28.480
+this isn't a separate
+
+31:28.480 --> 31:30.100
+sterile lab phase that
+
+31:30.100 --> 31:31.600
+happens before or after
+
+31:31.600 --> 31:32.500
+the mud is crushed.
+
+31:32.660 --> 31:32.940
+Right.
+
+31:33.080 --> 31:34.100
+Integrating it is the
+
+31:34.100 --> 31:35.200
+master stroke here.
+
+31:35.380 --> 31:35.580
+Yeah.
+
+31:35.580 --> 31:36.740
+The brutal mechanical
+
+31:36.740 --> 31:38.240
+compression and the
+
+31:38.240 --> 31:39.440
+intense heat gradients
+
+31:39.440 --> 31:40.740
+generated by the friction
+
+31:40.740 --> 31:41.660
+of the press phase.
+
+31:41.740 --> 31:41.980
+Yeah.
+
+31:42.300 --> 31:43.120
+They aren't just crushing
+
+31:43.120 --> 31:43.960
+the water out.
+
+31:44.420 --> 31:45.400
+They are the energetic
+
+31:45.400 --> 31:46.480
+drivers for these
+
+31:46.480 --> 31:47.540
+biological reactions.
+
+31:47.600 --> 31:48.040
+Oh, cool.
+
+31:48.180 --> 31:49.480
+The mechanical cycle and
+
+31:49.480 --> 31:50.740
+the biological cycle are
+
+31:50.740 --> 31:51.840
+perfectly enmeshed.
+
+31:52.260 --> 31:53.560
+The immense heat of
+
+31:53.560 --> 31:55.060
+compression accelerates the
+
+31:55.060 --> 31:56.540
+enzymatic activity of the
+
+31:56.540 --> 31:58.580
+yeast far beyond what it
+
+31:58.580 --> 31:59.860
+would achieve in a room
+
+31:59.860 --> 32:00.700
+temperature vat.
+
+32:00.820 --> 32:01.660
+So it's feeding the
+
+32:01.660 --> 32:02.120
+biology.
+
+32:02.400 --> 32:02.820
+Exactly.
+
+32:03.020 --> 32:03.200
+Yeah.
+
+32:03.200 --> 32:04.560
+The crushing mechanical
+
+32:04.560 --> 32:05.940
+pressure forces those
+
+32:05.940 --> 32:07.380
+enzymes deep into the
+
+32:07.380 --> 32:08.860
+microscopic porous structure
+
+32:08.860 --> 32:10.480
+of the biomass, achieving
+
+32:10.480 --> 32:11.500
+total saturation.
+
+32:12.140 --> 32:13.700
+The mechanical violence
+
+32:13.700 --> 32:15.140
+actually powers the
+
+32:15.140 --> 32:16.160
+biological extraction.
+
+32:16.400 --> 32:16.680
+Okay.
+
+32:16.820 --> 32:18.560
+So we have fluidic steel
+
+32:18.560 --> 32:20.820
+pipes making micro second
+
+32:20.820 --> 32:22.160
+routing decisions based on
+
+32:22.160 --> 32:22.520
+pressure.
+
+32:22.780 --> 32:24.900
+And we have biological yeast
+
+32:24.900 --> 32:26.320
+chewing through starches
+
+32:26.320 --> 32:27.280
+under immense mechanical
+
+32:27.280 --> 32:27.640
+heat.
+
+32:27.760 --> 32:27.900
+Yeah.
+
+32:28.340 --> 32:30.120
+Where does the AI come in?
+
+32:30.140 --> 32:30.420
+Right.
+
+32:30.420 --> 32:31.740
+If the fluid is handling
+
+32:31.740 --> 32:33.080
+the fast instantaneous
+
+32:33.080 --> 32:35.000
+computation, what is the
+
+32:35.000 --> 32:36.000
+artificial intelligence
+
+32:36.000 --> 32:36.860
+actually doing?
+
+32:37.500 --> 32:38.900
+Well, the paper introduces
+
+32:38.900 --> 32:40.400
+an external convolutional
+
+32:40.400 --> 32:41.800
+neural network, a CNN.
+
+32:42.240 --> 32:42.620
+Okay.
+
+32:43.160 --> 32:44.200
+But it isn't looking at
+
+32:44.200 --> 32:45.320
+camera feeds or pictures,
+
+32:45.520 --> 32:46.280
+which is what we usually
+
+32:46.280 --> 32:47.400
+think of with CNNs.
+
+32:47.820 --> 32:50.400
+It is continuously analyzing
+
+32:50.400 --> 32:52.700
+Raman spectral data taken
+
+32:52.700 --> 32:53.940
+directly from the biomass
+
+32:53.940 --> 32:55.040
+inside the chamber.
+
+32:55.540 --> 32:56.820
+Raman spectroscopy.
+
+32:56.880 --> 32:57.000
+Yeah.
+
+32:57.000 --> 32:58.900
+For anyone unfamiliar, that
+
+32:58.900 --> 33:00.720
+involves shining a specialized
+
+33:00.720 --> 33:02.660
+laser into the sludge and
+
+33:02.660 --> 33:03.980
+measuring exactly how the
+
+33:03.980 --> 33:05.280
+light scatters when it hits
+
+33:05.280 --> 33:05.960
+the molecules.
+
+33:06.760 --> 33:07.960
+It basically gives you a
+
+33:07.960 --> 33:09.500
+real-time molecular
+
+33:09.500 --> 33:11.540
+fingerprint of whatever is
+
+33:11.540 --> 33:13.660
+inside the dark sealed
+
+33:13.660 --> 33:14.100
+drum.
+
+33:14.300 --> 33:15.840
+It gives the system eyes
+
+33:15.840 --> 33:16.920
+inside the chaos.
+
+33:16.980 --> 33:18.000
+Oh, I like that.
+
+33:18.120 --> 33:19.760
+The CNN takes that massive
+
+33:19.760 --> 33:22.240
+stream of raw spectral data
+
+33:22.240 --> 33:24.540
+and classifies the exact
+
+33:24.540 --> 33:26.280
+material state of the sludge
+
+33:26.280 --> 33:27.840
+at any given millisecond.
+
+33:27.980 --> 33:28.920
+So it knows what's going
+
+33:28.920 --> 33:29.740
+on chemically.
+
+33:29.960 --> 33:30.240
+Right.
+
+33:30.540 --> 33:31.540
+It knows that the material
+
+33:31.540 --> 33:32.760
+is still highly hydrated.
+
+33:33.140 --> 33:34.040
+It knows that the
+
+33:34.040 --> 33:35.440
+glucoamylase has successfully
+
+33:35.440 --> 33:36.880
+broken down the starches.
+
+33:37.160 --> 33:38.420
+It detects when the
+
+33:38.420 --> 33:39.580
+valuable lipids have been
+
+33:39.580 --> 33:41.000
+fully liberated from the
+
+33:41.000 --> 33:41.780
+cellular walls.
+
+33:41.940 --> 33:44.000
+And then it uses that deep
+
+33:44.000 --> 33:45.880
+molecular understanding to
+
+33:45.880 --> 33:47.840
+tweak the macro parameters of
+
+33:47.840 --> 33:48.840
+the entire reactor.
+
+33:48.940 --> 33:49.380
+Exactly.
+
+33:49.940 --> 33:51.640
+The paper beautifully outlines
+
+33:51.640 --> 33:53.320
+this hybrid division of labor.
+
+33:53.500 --> 33:54.460
+Okay, let's go over that.
+
+33:54.460 --> 33:55.880
+The physical knot lattice,
+
+33:56.000 --> 33:56.860
+the water, and the pipes
+
+33:56.860 --> 33:59.120
+handles the fast, local,
+
+33:59.460 --> 34:00.660
+spatial routing decisions.
+
+34:01.220 --> 34:02.580
+It has to act instantly,
+
+34:03.060 --> 34:04.700
+faster than any digital sensor
+
+34:04.700 --> 34:05.620
+could ever process.
+
+34:05.740 --> 34:06.720
+Because it's physics.
+
+34:07.080 --> 34:07.360
+Right.
+
+34:07.820 --> 34:09.560
+It's snapping valves shut
+
+34:09.560 --> 34:11.140
+based on immediate local
+
+34:11.140 --> 34:12.800
+pressure spikes to prevent
+
+34:12.800 --> 34:13.960
+the machine from tearing
+
+34:13.960 --> 34:14.820
+itself apart.
+
+34:15.380 --> 34:17.320
+But the neural network handles
+
+34:17.320 --> 34:19.280
+the slow, globally informed
+
+34:19.280 --> 34:19.880
+adaptation.
+
+34:20.020 --> 34:21.380
+Oh, so it's making the big
+
+34:21.380 --> 34:21.900
+decisions.
+
+34:21.900 --> 34:22.300
+Right.
+
+34:22.700 --> 34:24.480
+The AI might analyze the
+
+34:24.480 --> 34:26.240
+spectral data and determine,
+
+34:26.660 --> 34:28.880
+hey, this specific batch of
+
+34:28.880 --> 34:31.060
+peat from the lower bog is
+
+34:31.060 --> 34:32.600
+incredibly fibrous and
+
+34:32.600 --> 34:32.920
+stubborn.
+
+34:33.660 --> 34:34.840
+We need to increase the
+
+34:34.840 --> 34:35.960
+duration of the superheated
+
+34:35.960 --> 34:37.700
+steam injection for the next
+
+34:37.700 --> 34:40.500
+lift phase by 12% to pre-soften
+
+34:40.500 --> 34:41.160
+the material.
+
+34:41.380 --> 34:42.280
+Oh, wow.
+
+34:42.440 --> 34:44.040
+Or it might see the lipid
+
+34:44.040 --> 34:45.120
+extraction is complete.
+
+34:45.340 --> 34:46.700
+Let's accelerate the cooling for
+
+34:46.700 --> 34:48.320
+the clamp phase to move to the
+
+34:48.320 --> 34:48.820
+next cycle.
+
+34:48.820 --> 34:50.900
+I picture it exactly like a
+
+34:50.900 --> 34:52.220
+massive symphony orchestra.
+
+34:53.260 --> 34:54.140
+Oh, that's a good analogy.
+
+34:54.280 --> 34:55.760
+Like the physical knot lattice,
+
+34:55.900 --> 34:56.760
+the fluidic pipes.
+
+34:56.900 --> 34:58.080
+They are the musicians.
+
+34:58.500 --> 34:59.700
+They are the ones physically
+
+34:59.700 --> 35:01.460
+playing the notes, feeling the
+
+35:01.460 --> 35:03.520
+immediate tactile feedback of
+
+35:03.520 --> 35:05.160
+their instruments, making
+
+35:05.160 --> 35:06.840
+split second local adjustments
+
+35:06.840 --> 35:08.240
+to their pitch and pressure.
+
+35:08.540 --> 35:08.800
+Yes.
+
+35:09.020 --> 35:10.960
+But the AI is the conductor.
+
+35:11.320 --> 35:12.640
+The conductor isn't playing an
+
+35:12.640 --> 35:14.200
+instrument, but they are looking
+
+35:14.200 --> 35:16.820
+at the entire score, listening to
+
+35:16.820 --> 35:18.820
+the macro output and setting the
+
+35:18.820 --> 35:19.100
+tempo.
+
+35:19.100 --> 35:20.500
+They are making the sweeping
+
+35:20.500 --> 35:22.280
+adjustments to ensure the overall
+
+35:22.280 --> 35:24.120
+performance is perfectly optimized
+
+35:24.120 --> 35:26.660
+based on the messy reality of the
+
+35:26.660 --> 35:27.820
+sludge they've been handed.
+
+35:28.200 --> 35:29.840
+And that division of labor between
+
+35:29.840 --> 35:32.560
+fast physical logic and slow
+
+35:32.560 --> 35:35.820
+statistical inference is what allows
+
+35:35.820 --> 35:38.740
+the caldera to process material that
+
+35:38.740 --> 35:40.940
+would choke a traditional refinery.
+
+35:41.160 --> 35:41.680
+It's incredible.
+
+35:41.880 --> 35:42.020
+Okay.
+
+35:42.020 --> 35:44.240
+So we have a profound understanding
+
+35:44.240 --> 35:45.440
+of what this machine does.
+
+35:46.040 --> 35:48.360
+We know it breathes massive amounts
+
+35:48.360 --> 35:49.500
+of steam and vacuum.
+
+35:49.900 --> 35:52.240
+We know it uses ternary fluid logic
+
+35:52.240 --> 35:53.460
+to route energy.
+
+35:53.900 --> 35:55.760
+We know it employs yeast as
+
+35:55.760 --> 35:57.220
+microscopic extractors.
+
+35:57.360 --> 35:59.420
+And we know an AI conducts the
+
+35:59.420 --> 36:00.360
+overall rhythm.
+
+36:00.460 --> 36:00.980
+It's a lot.
+
+36:01.000 --> 36:01.580
+It's a ton.
+
+36:01.800 --> 36:03.480
+But the second half of
+
+36:03.480 --> 36:05.440
+Flyxion's paper is where we leave
+
+36:05.440 --> 36:07.140
+the realm of mechanical engineering
+
+36:07.140 --> 36:09.720
+and wade out into the deep waters
+
+36:09.720 --> 36:11.120
+of theoretical physics.
+
+36:11.120 --> 36:12.640
+This is where it gets really deep.
+
+36:12.740 --> 36:14.160
+Because the paper asks the
+
+36:14.160 --> 36:16.400
+foundational question, why does
+
+36:16.400 --> 36:18.020
+this discrete logic emerge from
+
+36:18.020 --> 36:19.620
+physical fluid in the first place?
+
+36:19.740 --> 36:19.920
+Right.
+
+36:20.440 --> 36:22.600
+And to answer that, Flyxion brings
+
+36:22.600 --> 36:25.280
+in variational field theory and
+
+36:25.280 --> 36:27.800
+maps the reactor onto the RSVP
+
+36:27.800 --> 36:28.300
+framework.
+
+36:28.780 --> 36:29.120
+Yes.
+
+36:29.940 --> 36:31.840
+This is the section that elevates
+
+36:31.840 --> 36:33.760
+the document from a brilliant
+
+36:33.760 --> 36:36.900
+engineering schematic to a profound
+
+36:36.900 --> 36:38.500
+piece of fundamental science.
+
+36:38.620 --> 36:39.040
+Honestly.
+
+36:39.040 --> 36:40.820
+We talked earlier about the
+
+36:40.820 --> 36:42.140
+discrete states of the knot
+
+36:42.140 --> 36:42.880
+lattice, right?
+
+36:43.460 --> 36:45.180
+Snapping cleanly into state
+
+36:45.180 --> 36:46.720
+negative one, zero, or one.
+
+36:47.260 --> 36:49.020
+Flyxion mathematically proves
+
+36:49.020 --> 36:51.560
+that these discrete digital-like
+
+36:51.560 --> 36:54.080
+states aren't just arbitrary
+
+36:54.080 --> 36:55.820
+mechanical limits that an engineer
+
+36:55.820 --> 36:56.880
+bolted into the pipe.
+
+36:56.960 --> 36:57.460
+Oh, okay.
+
+36:57.600 --> 36:59.400
+They are the inevitable natural
+
+36:59.400 --> 37:02.100
+result of gradient descent in a
+
+37:02.100 --> 37:04.120
+continuous energy functional.
+
+37:04.280 --> 37:04.500
+Okay.
+
+37:04.500 --> 37:06.320
+Let's slow down and really chew on
+
+37:06.320 --> 37:09.220
+that because gradient descent in a
+
+37:09.220 --> 37:11.520
+continuous energy functional is the
+
+37:11.520 --> 37:12.760
+kind of phrase that makes people
+
+37:12.760 --> 37:13.820
+want to change the channel.
+
+37:14.100 --> 37:14.380
+Fair enough.
+
+37:14.600 --> 37:14.980
+Fair enough.
+
+37:15.060 --> 37:15.760
+Let's break it down.
+
+37:15.900 --> 37:17.500
+The paper defines this global
+
+37:17.500 --> 37:18.920
+functional, Jotter dollars.
+
+37:19.280 --> 37:20.880
+Think of Jotters as a mathematical
+
+37:20.880 --> 37:21.720
+scorecard.
+
+37:21.860 --> 37:22.140
+Okay.
+
+37:22.540 --> 37:23.060
+It's a scorecard.
+
+37:23.080 --> 37:25.200
+It represents the total cost or
+
+37:25.200 --> 37:27.240
+energy state of the entire reactor
+
+37:27.240 --> 37:29.120
+system at any given microsecond.
+
+37:29.760 --> 37:32.440
+And nature, universally, always wants
+
+37:32.440 --> 37:34.340
+to achieve the lowest possible score.
+
+37:34.460 --> 37:34.780
+Right.
+
+37:35.220 --> 37:36.720
+It wants to minimize this cost.
+
+37:36.960 --> 37:37.560
+Exactly.
+
+37:38.220 --> 37:40.060
+This functional is made of four
+
+37:40.060 --> 37:41.860
+distinct physical realities.
+
+37:42.300 --> 37:44.100
+Let's look at the actual physics of
+
+37:44.100 --> 37:45.500
+what the system is trying to minimize.
+
+37:45.800 --> 37:45.960
+Okay.
+
+37:46.360 --> 37:48.400
+The first physical reality the system
+
+37:48.400 --> 37:50.820
+minimizes is the steepness of
+
+37:50.820 --> 37:51.760
+pressure gradients.
+
+37:52.460 --> 37:53.020
+Meaning what?
+
+37:53.220 --> 37:55.240
+The mathematical term essentially
+
+37:55.240 --> 37:57.780
+penalizes the system for having
+
+37:57.780 --> 38:00.060
+severe pressure spikes right next to
+
+38:00.060 --> 38:01.120
+low-pressure voids.
+
+38:01.120 --> 38:04.180
+The physical reality of water is that
+
+38:04.180 --> 38:05.960
+it naturally wants to smooth out
+
+38:05.960 --> 38:06.580
+spatially.
+
+38:06.900 --> 38:07.280
+Okay.
+
+38:07.620 --> 38:10.380
+It resists sheer cliffs of pressure.
+
+38:10.580 --> 38:13.280
+It's exactly like a massive mound of
+
+38:13.280 --> 38:14.780
+loose, dry sand.
+
+38:14.960 --> 38:17.140
+You can't build a perfectly vertical wall
+
+38:17.140 --> 38:18.120
+out of loose sand.
+
+38:18.260 --> 38:18.920
+No, you can't.
+
+38:18.980 --> 38:20.920
+Gravity and friction naturally cause it
+
+38:20.920 --> 38:23.340
+to slump down into a smooth, gradual
+
+38:23.340 --> 38:23.860
+pile.
+
+38:24.320 --> 38:26.280
+The fluid in the reactor naturally
+
+38:26.280 --> 38:28.600
+regularizes its own pressure field in
+
+38:28.600 --> 38:29.520
+the exact same way.
+
+38:29.720 --> 38:30.460
+That's a great visual.
+
+38:30.460 --> 38:32.540
+Now, the second physical reality it
+
+38:32.540 --> 38:34.780
+minimizes is chaotic kinetic energy.
+
+38:35.220 --> 38:36.280
+So turbulent flows.
+
+38:36.600 --> 38:36.740
+Right.
+
+38:37.140 --> 38:39.300
+The system disfavors fast thrashing
+
+38:39.300 --> 38:41.840
+turbulent flows whose sheer velocity
+
+38:41.840 --> 38:44.020
+isn't actively contributing to moving
+
+38:44.020 --> 38:44.920
+the fluid forward.
+
+38:45.200 --> 38:46.060
+It wants efficiency.
+
+38:46.660 --> 38:47.140
+Inherently.
+
+38:47.700 --> 38:50.460
+It wants the fluid to move with smooth,
+
+38:50.700 --> 38:53.340
+directed efficiency rather than just
+
+38:53.340 --> 38:55.580
+boiling and thrashing around in place
+
+38:55.580 --> 38:57.000
+and wasting energy as heat.
+
+38:57.140 --> 38:57.760
+Makes sense.
+
+38:57.760 --> 39:00.680
+Now, the third term is the one I find most
+
+39:00.680 --> 39:01.620
+visually compelling.
+
+39:02.120 --> 39:04.440
+The paper models the state of the knots
+
+39:04.440 --> 39:06.320
+using a triple well potential.
+
+39:06.600 --> 39:07.160
+Yes.
+
+39:07.160 --> 39:09.660
+If you were to graph the math describing
+
+39:09.660 --> 39:12.160
+how a knot behaves, you wouldn't see a
+
+39:12.160 --> 39:14.420
+straight line or a simple gentle curve.
+
+39:14.900 --> 39:17.380
+You would see a landscape that looks exactly
+
+39:17.380 --> 39:20.700
+like a capital letter W, but with a third
+
+39:20.700 --> 39:22.460
+deep dip right in the middle.
+
+39:22.780 --> 39:25.040
+Three distinct deep valleys.
+
+39:25.040 --> 39:27.680
+And that landscape is the key to the physical
+
+39:27.680 --> 39:28.380
+computation.
+
+39:28.740 --> 39:29.220
+How so?
+
+39:29.500 --> 39:31.420
+The physical state of the knot, its current
+
+39:31.420 --> 39:34.340
+geometry, is like a heavy marble rolling
+
+39:34.340 --> 39:36.160
+across that W-shaped landscape.
+
+39:36.280 --> 39:36.540
+Okay.
+
+39:36.800 --> 39:38.820
+The dynamic environment of the reactor,
+
+39:39.020 --> 39:41.280
+the surging steam, and the dropping plate
+
+39:41.280 --> 39:43.100
+is constantly shaking the board,
+
+39:43.420 --> 39:44.680
+adjusting the local pressure.
+
+39:44.820 --> 39:46.340
+So the marble is moving around.
+
+39:46.500 --> 39:46.700
+Right.
+
+39:47.060 --> 39:49.320
+And the marble cannot simply defy gravity
+
+39:49.320 --> 39:50.800
+and rest on the steep slopes.
+
+39:50.800 --> 39:54.400
+It naturally, inevitably rolls downhill to rest
+
+39:54.400 --> 39:56.220
+at the lowest point of whatever valley it is
+
+39:56.220 --> 39:56.800
+closest to.
+
+39:57.300 --> 40:00.160
+And those three deep valleys perfectly correspond
+
+40:00.160 --> 40:01.740
+to the three discrete states.
+
+40:02.400 --> 40:04.020
+The reverse routing of Menico 1,
+
+40:04.640 --> 40:06.720
+the passive transitional state of 0,
+
+40:07.020 --> 40:08.940
+and the forward active routing of 1.
+
+40:09.040 --> 40:09.500
+Exactly.
+
+40:09.680 --> 40:12.320
+The hills between these valleys are the potential
+
+40:12.320 --> 40:12.980
+barriers.
+
+40:14.120 --> 40:17.060
+Flyxion notes that the distinct, crisp logic
+
+40:17.060 --> 40:19.900
+we observe, emerges naturally when these barriers
+
+40:19.900 --> 40:21.520
+are incredibly high and steep,
+
+40:21.880 --> 40:24.660
+what the paper calls the strong barrier limit.
+
+40:24.720 --> 40:24.920
+Right.
+
+40:25.160 --> 40:27.400
+As the pressure forces intensify,
+
+40:27.920 --> 40:29.980
+the mathematical hills between those valleys
+
+40:29.980 --> 40:33.100
+become incredibly steep, practically vertical.
+
+40:33.260 --> 40:33.980
+Oh, we see.
+
+40:34.260 --> 40:36.840
+It becomes physically impossible for the knot's
+
+40:36.840 --> 40:40.300
+internal geometry to just hover halfway up a hill
+
+40:40.300 --> 40:42.440
+in a state of partial indecision.
+
+40:42.560 --> 40:43.540
+It has to pick a lane.
+
+40:43.540 --> 40:47.880
+It is forced by the fundamental, undeniable physics
+
+40:47.880 --> 40:49.540
+of the potential energy landscape
+
+40:49.540 --> 40:51.840
+to snap cleanly and instantly
+
+40:51.840 --> 40:53.940
+into one of the three discrete valleys.
+
+40:54.320 --> 40:56.840
+So the continuous, messy physical fluid
+
+40:56.840 --> 41:00.120
+creates its own absolute digital-like logic
+
+41:00.120 --> 41:02.200
+simply by obeying the laws of physics
+
+41:02.200 --> 41:04.200
+and seeking the lowest energy state.
+
+41:04.320 --> 41:05.560
+That is the magic of it, yes.
+
+41:05.580 --> 41:07.500
+And the final element of this scorecard,
+
+41:07.600 --> 41:09.740
+the fourth term, is the coupling mechanism.
+
+41:09.740 --> 41:12.480
+It is the physics that directly links
+
+41:12.480 --> 41:14.220
+the physical geometry of the knot
+
+41:14.220 --> 41:16.760
+to the local pressure field of the water.
+
+41:17.440 --> 41:19.620
+It means that a region of surging high pressure
+
+41:19.620 --> 41:22.460
+physically tilts that W-shaped landscape,
+
+41:22.980 --> 41:24.780
+heavily biasing the marble to fall
+
+41:24.780 --> 41:26.280
+into the active forward valley.
+
+41:26.700 --> 41:29.740
+The pressure physically commands the valves to change.
+
+41:29.900 --> 41:30.240
+Wow.
+
+41:30.660 --> 41:34.420
+By minimizing this massive, complex functional,
+
+41:34.420 --> 41:36.760
+the entire six-story reactor
+
+41:36.760 --> 41:41.520
+is performing a massive distributed parallel computation.
+
+41:42.100 --> 41:43.720
+It is collectively inferring
+
+41:43.720 --> 41:46.620
+the absolute most efficient routing configuration
+
+41:46.620 --> 41:49.160
+by simply letting the physics happen.
+
+41:49.240 --> 41:49.600
+Exactly.
+
+41:49.840 --> 41:53.480
+And this leads to the absolute mind-bender of the paper.
+
+41:53.560 --> 41:54.020
+Here we go.
+
+41:54.120 --> 41:56.400
+Flyxion takes this entire physical reality,
+
+41:56.680 --> 41:59.260
+the sludge, the steam, the massive steel plate,
+
+41:59.560 --> 42:00.560
+the fluidic valves,
+
+42:00.560 --> 42:02.980
+and maps it directly, one-to-one,
+
+42:03.380 --> 42:06.040
+onto a highly abstract theoretical framework
+
+42:06.040 --> 42:08.560
+called the Relativistic Scalar Vector Plenum,
+
+42:09.220 --> 42:09.560
+or RSVP.
+
+42:10.280 --> 42:12.080
+It is a breathtaking structural mapping.
+
+42:12.240 --> 42:14.140
+Let's talk about the RSVP framework.
+
+42:14.260 --> 42:14.480
+Okay.
+
+42:14.600 --> 42:16.520
+In the theoretical RSVP framework,
+
+42:16.720 --> 42:18.200
+you have three canonical fields
+
+42:18.200 --> 42:19.560
+that dictate how the universe operates.
+
+42:20.200 --> 42:21.360
+A scalar potential,
+
+42:21.780 --> 42:22.600
+a vector field,
+
+42:22.800 --> 42:23.940
+and an accessibility field.
+
+42:24.300 --> 42:26.740
+Flyxion demonstrates that the Caldera reactor
+
+42:26.740 --> 42:29.180
+is a perfect physical manifestation
+
+42:29.180 --> 42:30.520
+of this abstract theory.
+
+42:31.300 --> 42:33.660
+The raw physical pressure of the fluid
+
+42:33.660 --> 42:36.460
+maps perfectly to the abstract scalar potential.
+
+42:36.780 --> 42:40.060
+Both act as the fundamental driving force,
+
+42:40.200 --> 42:41.180
+the underlying tension
+
+42:41.180 --> 42:43.200
+that pushes influence through the medium.
+
+42:43.340 --> 42:43.560
+Right.
+
+42:43.660 --> 42:45.760
+And the physical velocity of the water
+
+42:45.760 --> 42:47.160
+rushing through the pipes
+
+42:47.160 --> 42:49.400
+maps directly to the vector field.
+
+42:49.660 --> 42:52.600
+Both encode the actual directed propagation
+
+42:52.600 --> 42:54.220
+of energy through space.
+
+42:54.220 --> 42:54.580
+Yes.
+
+42:55.060 --> 42:56.800
+And most profoundly,
+
+42:57.060 --> 42:59.180
+the physical geometry of the knot lattice.
+
+42:59.800 --> 43:02.400
+The valves snapping open and closed maps
+
+43:02.400 --> 43:05.000
+directly to the RSVP accessibility field.
+
+43:05.100 --> 43:05.540
+Ah.
+
+43:06.340 --> 43:08.060
+The knot lattice literally creates
+
+43:08.060 --> 43:09.960
+a spatially varying landscape
+
+43:09.960 --> 43:11.760
+of what is physically accessible.
+
+43:12.040 --> 43:12.500
+Exactly.
+
+43:13.220 --> 43:15.640
+It dictates at every single point in the reactor
+
+43:15.640 --> 43:18.280
+what paths the energy is permitted to take.
+
+43:18.380 --> 43:20.020
+This mapping is so fundamental
+
+43:20.020 --> 43:22.900
+that it forces us to completely redefine a concept
+
+43:22.900 --> 43:24.720
+that every high school physics student
+
+43:24.720 --> 43:25.680
+thinks they understand.
+
+43:25.880 --> 43:26.160
+Entropy.
+
+43:26.240 --> 43:26.440
+Yeah.
+
+43:26.580 --> 43:27.520
+This part is wild.
+
+43:27.780 --> 43:29.020
+We are taught that entropy
+
+43:29.020 --> 43:31.140
+is simply the measure of chaos.
+
+43:31.820 --> 43:32.700
+It is disorder.
+
+43:33.380 --> 43:35.980
+It is the inevitable dissipation of heat,
+
+43:36.480 --> 43:37.960
+the breaking of a teacup,
+
+43:37.960 --> 43:40.480
+the universe slowly winding down
+
+43:40.480 --> 43:42.340
+into a cold, dead void.
+
+43:43.120 --> 43:45.500
+But Flyxion redefines entropy
+
+43:45.500 --> 43:48.320
+in a completely structural way for this system.
+
+43:48.460 --> 43:50.700
+Within the context of the Caldera reactor
+
+43:50.700 --> 43:52.280
+and the RSVP framework,
+
+43:52.880 --> 43:54.680
+entropy has absolutely nothing to do
+
+43:54.680 --> 43:55.660
+with thermal heat loss.
+
+43:55.780 --> 43:56.480
+It doesn't.
+
+43:56.560 --> 43:56.740
+No.
+
+43:57.220 --> 43:59.280
+It represents the structural flexibility
+
+43:59.280 --> 44:00.060
+of the system.
+
+44:01.100 --> 44:03.860
+The paper mathematically defines entropy
+
+44:03.860 --> 44:06.920
+as the logarithmic volume
+
+44:06.920 --> 44:09.480
+of admissible routing configurations.
+
+44:09.860 --> 44:10.100
+Okay.
+
+44:10.180 --> 44:10.780
+If you're listening,
+
+44:10.980 --> 44:12.900
+let's ground that in physical reality.
+
+44:12.900 --> 44:15.280
+Think of admissible routing configurations
+
+44:15.280 --> 44:17.160
+as the number of available choices.
+
+44:17.160 --> 44:19.160
+If you are a single molecule
+
+44:19.160 --> 44:20.720
+of highly pressurized water
+
+44:20.720 --> 44:22.060
+currently sitting in the middle
+
+44:22.060 --> 44:23.660
+of this massive pipe network,
+
+44:23.920 --> 44:26.140
+how many different physical paths
+
+44:26.140 --> 44:27.260
+are open to you right now?
+
+44:27.620 --> 44:28.900
+So if the system is in a state
+
+44:28.900 --> 44:29.560
+of high entropy,
+
+44:29.800 --> 44:31.320
+it means it has massive flexibility.
+
+44:32.060 --> 44:34.020
+The knots might be in their passive zero state
+
+44:34.020 --> 44:35.660
+hovering in the transitional zones.
+
+44:35.760 --> 44:38.420
+So the fluid has thousands of options.
+
+44:38.900 --> 44:39.340
+Exactly.
+
+44:39.740 --> 44:41.580
+Thousands of slightly different paths
+
+44:41.580 --> 44:42.180
+it could take.
+
+44:42.600 --> 44:44.500
+The entire system is highly sensitive,
+
+44:44.500 --> 44:45.500
+highly flexible,
+
+44:46.100 --> 44:48.620
+and basically waiting for direction.
+
+44:49.020 --> 44:50.760
+But low entropy means the choices
+
+44:50.760 --> 44:52.200
+have been violently removed.
+
+44:52.360 --> 44:52.580
+Yes.
+
+44:53.240 --> 44:54.420
+The routes are locked in.
+
+44:55.020 --> 44:57.220
+The extreme pressure has forced the knots
+
+44:57.220 --> 44:59.820
+to snap firmly into their discrete
+
+44:59.820 --> 45:01.960
+minus one or one states.
+
+45:02.280 --> 45:03.760
+So the vast majority of the pipes
+
+45:03.760 --> 45:04.740
+are closed off,
+
+45:05.080 --> 45:07.500
+and the fluid has only one highly constrained,
+
+45:08.460 --> 45:10.400
+ruthlessly efficient path forward.
+
+45:10.400 --> 45:13.720
+Therefore, the entire breathing,
+
+45:14.160 --> 45:16.700
+violent operation of the caldera reactor,
+
+45:17.220 --> 45:19.940
+from the massive injection of superheated steam
+
+45:19.940 --> 45:21.920
+to the brutal dropping of the thousands
+
+45:21.920 --> 45:23.040
+of tons of steel,
+
+45:23.680 --> 45:25.520
+could be viewed through the lens of physics
+
+45:25.520 --> 45:28.740
+as a process of structured entropy descent.
+
+45:29.220 --> 45:30.880
+Structured entropy descent.
+
+45:30.880 --> 45:32.680
+That is such a powerful image.
+
+45:32.860 --> 45:33.200
+Isn't it?
+
+45:33.240 --> 45:35.720
+The steam injection pumps raw energy in,
+
+45:35.820 --> 45:36.840
+expanding the pressure
+
+45:36.840 --> 45:38.100
+and opening up the options,
+
+45:38.100 --> 45:40.000
+creating a sphere of high entropy
+
+45:40.000 --> 45:41.260
+and maximum flexibility.
+
+45:41.860 --> 45:42.400
+But then,
+
+45:42.700 --> 45:44.100
+the sudden catastrophic condensation
+
+45:44.640 --> 45:47.040
+and the brutal physical compression
+
+45:47.040 --> 45:48.140
+of the falling plate
+
+45:48.140 --> 45:50.920
+force the knot lattice to make decisions.
+
+45:51.540 --> 45:53.740
+The system violently collapses
+
+45:53.740 --> 45:55.180
+its millions of options
+
+45:55.180 --> 45:57.100
+down into a single, optimized,
+
+45:58.160 --> 46:00.560
+highly efficient energy transfer pathway.
+
+46:00.560 --> 46:02.240
+It extracts valuable work,
+
+46:02.760 --> 46:05.260
+not by burning things to generate heat,
+
+46:05.260 --> 46:09.200
+but by actively, physically constraining
+
+46:09.200 --> 46:10.260
+its own possibilities.
+
+46:10.540 --> 46:12.000
+Which brings us to the final
+
+46:12.000 --> 46:12.840
+and frankly,
+
+46:13.080 --> 46:14.440
+the most staggering proof
+
+46:14.440 --> 46:16.020
+in Flyxion's entire paper.
+
+46:16.780 --> 46:19.760
+Section 6 explores simulation versus reality.
+
+46:20.060 --> 46:21.380
+This is the part that really got me.
+
+46:21.460 --> 46:22.500
+We have established,
+
+46:22.780 --> 46:23.800
+through rigorous physics,
+
+46:23.800 --> 46:26.260
+that this massive physical machine
+
+46:26.260 --> 46:28.500
+perfectly obeys the complex,
+
+46:28.700 --> 46:30.200
+continuous field equations
+
+46:30.200 --> 46:32.000
+of the RSVP framework.
+
+46:32.300 --> 46:32.520
+Right.
+
+46:32.520 --> 46:35.020
+But Flyxion asks the ultimate question.
+
+46:35.780 --> 46:36.880
+What happens if an engineer
+
+46:36.880 --> 46:38.340
+sits down at a standard,
+
+46:38.620 --> 46:40.180
+silicon-based digital computer
+
+46:40.180 --> 46:41.800
+and writes a software program
+
+46:41.800 --> 46:44.580
+to simulate these exact physical equations?
+
+46:44.960 --> 46:47.240
+Well, to simulate continuous flowing physics
+
+46:47.240 --> 46:48.700
+on a rigid digital computer,
+
+46:48.900 --> 46:50.340
+you have to chop reality up.
+
+46:50.720 --> 46:52.580
+You have to break the continuous flow of water
+
+46:52.580 --> 46:54.720
+down into discrete digital steps,
+
+46:54.980 --> 46:56.780
+both in physical space and in time.
+
+46:57.100 --> 46:58.440
+You build a digital grid,
+
+46:58.940 --> 47:02.040
+a simulated lattice of millions of tiny cells,
+
+47:02.040 --> 47:05.800
+and you write specific mathematical update rules
+
+47:05.800 --> 47:08.520
+for how each digital cell interacts
+
+47:08.520 --> 47:10.220
+with the cells directly touching it.
+
+47:10.540 --> 47:12.440
+It relies on localized computation.
+
+47:13.560 --> 47:14.260
+In the simulation,
+
+47:14.700 --> 47:17.940
+cell A only looks at cell B and cell C
+
+47:17.940 --> 47:20.020
+to decide what its new pressure value
+
+47:20.020 --> 47:21.540
+should be in the next millisecond.
+
+47:21.740 --> 47:22.280
+Exactly.
+
+47:22.280 --> 47:27.080
+And when Flyxion mapped the continuous high-level math
+
+47:27.080 --> 47:28.660
+of the RSVP framework
+
+47:28.660 --> 47:32.820
+into this rigid, discrete digital simulation lattice,
+
+47:33.660 --> 47:35.100
+they discovered something incredible.
+
+47:35.280 --> 47:35.760
+What was it?
+
+47:35.820 --> 47:37.840
+They found total algorithmic identity.
+
+47:38.080 --> 47:39.080
+Algorithmic identity.
+
+47:39.240 --> 47:41.180
+What does that actually mean for the machine
+
+47:41.180 --> 47:42.120
+in the real world?
+
+47:42.340 --> 47:44.320
+It means that the digital mathematical rules
+
+47:44.320 --> 47:46.180
+required to simulate the physics
+
+47:46.180 --> 47:47.620
+on a silicon computer ship
+
+47:47.620 --> 47:50.920
+are exactly the same physical mechanical rules
+
+47:50.920 --> 47:53.020
+that the Caldera reactor's knot lattice
+
+47:53.020 --> 47:54.700
+is executing in real life.
+
+47:54.840 --> 47:54.980
+Wait.
+
+47:55.500 --> 47:56.600
+It is not an approximation.
+
+47:57.100 --> 47:58.820
+It is not a clever engineering metaphor.
+
+47:59.180 --> 47:59.440
+Okay.
+
+47:59.560 --> 48:00.560
+The physical pipes,
+
+48:00.740 --> 48:01.840
+the pressure thresholds,
+
+48:01.840 --> 48:02.860
+and the snapping valves
+
+48:02.860 --> 48:06.540
+are performing the exact identical mathematical operations
+
+48:06.540 --> 48:08.960
+that a microprocessor would perform
+
+48:08.960 --> 48:11.260
+if you asked it to simulate the reactor.
+
+48:11.640 --> 48:11.940
+Wait.
+
+48:12.000 --> 48:12.540
+If you're listening,
+
+48:12.660 --> 48:14.180
+let the magnitude of this sink in.
+
+48:14.180 --> 48:16.280
+Are we saying that the boundary
+
+48:16.280 --> 48:19.940
+between the physical machine crushing wet ocean mud
+
+48:19.940 --> 48:22.160
+and a digital software simulation of that machine
+
+48:22.160 --> 48:23.660
+completely dissolves?
+
+48:23.780 --> 48:24.140
+Yes.
+
+48:24.360 --> 48:26.960
+The physical machine isn't just acting like a computer.
+
+48:27.120 --> 48:28.240
+It is not an analogy.
+
+48:28.820 --> 48:30.520
+The physical machine is a computer
+
+48:30.520 --> 48:34.540
+actively executing a continuous complex algorithm
+
+48:34.540 --> 48:36.560
+using water and steel
+
+48:36.560 --> 48:38.680
+instead of electricity and silicon.
+
+48:39.000 --> 48:39.300
+Yes.
+
+48:39.920 --> 48:43.140
+That is the ultimate equivalence that Flyxion proves.
+
+48:43.140 --> 48:46.860
+The Caldera reactor is not a dumb mechanical object
+
+48:46.860 --> 48:49.220
+being guided by a separate computational brain.
+
+48:49.420 --> 48:49.820
+Wow.
+
+48:50.080 --> 48:51.800
+The physical process of the reactor,
+
+48:52.300 --> 48:53.360
+the flow of the water,
+
+48:53.420 --> 48:54.620
+and the shifting of the valves
+
+48:54.620 --> 48:56.220
+is the computation itself.
+
+48:57.080 --> 49:00.740
+The physical medium computes simply by existing and evolving
+
+49:00.740 --> 49:03.020
+according to its own structural constraints.
+
+49:03.360 --> 49:04.480
+It is breathtaking.
+
+49:04.840 --> 49:07.000
+The universe itself is computing the answer
+
+49:07.000 --> 49:08.500
+to the engineering problem.
+
+49:08.500 --> 49:11.160
+And this realization entirely upends
+
+49:11.160 --> 49:13.760
+how we design industrial architecture moving forward.
+
+49:14.600 --> 49:16.440
+Once you comprehend that your physical machine
+
+49:16.440 --> 49:18.400
+is actually a field theoretic computer,
+
+49:18.720 --> 49:20.640
+you stop designing it like a plumber
+
+49:20.640 --> 49:22.600
+and start designing it like a programmer.
+
+49:23.040 --> 49:24.220
+Okay, elaborate on that.
+
+49:24.340 --> 49:28.440
+Flyxion emphasizes that you don't optimize this system
+
+49:28.440 --> 49:30.500
+by simply building a bigger boiler
+
+49:30.500 --> 49:32.700
+to pump in more shear pressure.
+
+49:32.700 --> 49:36.000
+Instead, you maximize the energy output
+
+49:36.000 --> 49:40.540
+by engineering highly controlled massive spatial gradients
+
+49:40.540 --> 49:42.240
+in the scalar potential field.
+
+49:42.540 --> 49:43.600
+So you don't push harder.
+
+49:44.040 --> 49:45.560
+You shape the physical landscape
+
+49:45.560 --> 49:47.860
+so the energy naturally falls faster.
+
+49:48.120 --> 49:48.620
+Exactly.
+
+49:49.260 --> 49:52.600
+You physically sculpt the geometry of the knot lattice
+
+49:52.600 --> 49:54.680
+to shape the accessibility field,
+
+49:55.240 --> 49:57.540
+ensuring that the structured entropy descent
+
+49:57.540 --> 50:00.880
+naturally funnels the energy toward maximum recovery.
+
+50:01.100 --> 50:01.640
+Amazing.
+
+50:01.640 --> 50:05.320
+You meticulously tune the physical resistance of the valves,
+
+50:05.640 --> 50:06.720
+the coupling coefficients,
+
+50:07.420 --> 50:11.340
+so that the network snaps into its optimal routing paths rapidly,
+
+50:11.820 --> 50:14.560
+achieving what the paper calls constraint closure.
+
+50:15.020 --> 50:17.300
+And doing it without violently oscillating
+
+50:17.300 --> 50:18.880
+and vibrating the pipes to pieces.
+
+50:19.120 --> 50:19.600
+Exactly.
+
+50:20.020 --> 50:22.440
+You are writing software with physical steel.
+
+50:22.820 --> 50:24.920
+So what does this all mean for you, the listener?
+
+50:25.060 --> 50:29.040
+We have gone on an incredible, exhausting, fascinating journey today.
+
+50:29.040 --> 50:29.800
+We really have.
+
+50:29.800 --> 50:33.880
+We started with a massive pile of wet, uncooperative,
+
+50:34.140 --> 50:35.840
+rotting ocean sludge,
+
+50:36.400 --> 50:40.780
+a material that traditional engineering views as a nearly impossible
+
+50:40.780 --> 50:42.200
+energy-draining nightmare.
+
+50:42.400 --> 50:42.660
+Right.
+
+50:42.900 --> 50:46.200
+And to extract the immense value locked inside it,
+
+50:46.320 --> 50:48.280
+we didn't just build a hotter furnace.
+
+50:48.280 --> 50:55.880
+We explored a design for a machine the size of a building that breathes steam and inhales catastrophic vacuums.
+
+50:55.880 --> 51:04.660
+A machine that thinks, not with silicon, but using the continuous ternary logic of water pressure snapping physical valves.
+
+51:04.660 --> 51:05.160
+Exactly.
+
+51:05.440 --> 51:13.620
+We looked at a machine that deploys genetically engineered yeast as microscopic biological gears operating inside a violent high-pressure vice.
+
+51:13.620 --> 51:20.060
+All while an artificial intelligence conductor watches the molecular fingerprint of the mud to tweak the tempo.
+
+51:20.060 --> 51:25.760
+And fundamentally, we unpacked a machine that perfectly embodies advanced field-theoretic physics.
+
+51:26.300 --> 51:32.460
+Proving mathematically that brute physical reality and elegant computational algorithm could be the exact same thing.
+
+51:32.460 --> 51:36.080
+It is a profound masterclass in interdisciplinary synthesis.
+
+51:36.300 --> 51:37.080
+It really is.
+
+51:37.400 --> 51:47.780
+Flyxion has proven that energy storage, thermodynamic transport, and complex computation are not three separate disciplines that engineers have to awkwardly bolt together.
+
+51:48.060 --> 51:55.620
+They are simply different expressions of a single, continuous, highly structured physical field evolving over time.
+
+51:55.620 --> 51:59.860
+I want to leave you with a final thought to mull over as you go about your day.
+
+51:59.860 --> 52:09.080
+A thought that builds heavily on Flyxion's conclusion regarding what this technology means for the broader design paradigm of human civilization.
+
+52:09.540 --> 52:10.060
+Good question.
+
+52:10.340 --> 52:20.360
+Right now, we spend trillions of dollars trying to overlay fragile, easily hackable digital intelligence onto dumb physical infrastructure.
+
+52:20.360 --> 52:27.040
+We slap sensors and microchips onto ancient water pipes and power grids and call them smart cities.
+
+52:27.360 --> 52:27.440
+Right.
+
+52:27.840 --> 52:33.200
+But if computation isn't just a fragile thing, we have to trap inside a silicon chip.
+
+52:33.400 --> 52:39.860
+If computation is an intrinsic, natural feature of any physical system evolving toward its lowest energy state,
+
+52:40.800 --> 52:45.480
+what happens when we start trying to build rigid, centrally controlled smart grids?
+
+52:45.640 --> 52:49.680
+It calls into question the entire foundation of modern infrastructure.
+
+52:49.680 --> 52:54.500
+What if the next massive era of human engineering isn't digital at all?
+
+52:55.220 --> 53:05.440
+What if our future power grids, our massive water distribution networks, our planetary manufacturing plants are entirely purely physical?
+
+53:05.720 --> 53:08.860
+Built out of self-optimizing dynamic fluid fields.
+
+53:08.980 --> 53:09.280
+Yes.
+
+53:09.700 --> 53:14.820
+Where the pipes, the water, and the architectural geometry itself perform all the necessary thinking.
+
+53:14.820 --> 53:20.780
+Where the world didn't need a vulnerable computer chip to be smart because the physical world is the computer.
+
+53:21.420 --> 53:23.380
+Thank you for joining us on this deep dive.
+
+53:23.940 --> 53:27.080
+Keep questioning the boundaries of what's possible and keep exploring.
